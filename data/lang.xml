@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+	<name>lang</name>
+	<table>
+		<database/>
+		<name>lang</name>
+		<ddl>CREATE TABLE lang(id char(128), value char(1024))</ddl>
+		<columns>
+			<column>
+				<name>id</name>
+				<type>char</type>
+			</column>
+			<column>
+				<name>value</name>
+				<type>char</type>
+			</column>
+		</columns>
+		<rows>
+		</rows>
+	</table>
+</database>

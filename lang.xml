@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+	<name>lang</name>
+	<table>
+		<database/>
+		<name>lang</name>
+		<ddl>CREATE TABLE lang(id char(128), value char(1024))</ddl>
+		<columns>
+			<column>
+				<name>id</name>
+				<type>char</type>
+			</column>
+			<column>
+				<name>value</name>
+				<type>char</type>
+			</column>
+		</columns>
+		<rows>
+			<!--公共-->
+			<row>
+				<value column="0">pub_lineup</value>
+				<value column="1">阵容</value>
+			</row>
+			<row>
+				<value column="0">pub_sure</value>
+				<value column="1">确定</value>
+			</row>
+			<row>
+				<value column="0">pub_confirm</value>
+				<value column="1">确认</value>
+			</row>
+			<row>
+				<value column="0">pub_cancel</value>
+				<value column="1">取消</value>
+			</row>
+			<row>
+				<value column="0">pub_mercenary</value>
+				<value column="1">佣兵</value>
+			</row>
+			<row>
+				<value column="0">pub_quality1</value>
+				<value column="1">白色</value>
+			</row>
+			<row>
+				<value column="0">pub_quality2</value>
+				<value column="1">绿色</value>
+			</row>
+			<row>
+				<value column="0">pub_quality3</value>
+				<value column="1">蓝色</value>
+			</row>
+			<row>
+				<value column="0">pub_quality4</value>
+				<value column="1">紫色</value>
+			</row>
+			<row>
+				<value column="0">pub_quality5</value>
+				<value column="1">橙色</value>
+			</row>
+			<row>
+				<value column="0">pub_quality6</value>
+				<value column="1">金色</value>
+			</row>
+			<row>
+				<value column="0">pub_get</value>
+				<value column="1">领取</value>
+			</row>
+			<row>
+				<value column="0">pub_bag_full</value>
+				<value column="1">您的背包已满</value>
+			</row>
+			<row>
+				<value column="0">pub_diamond_insufficient</value>
+				<value column="1">您的钻石不足</value>
+			</row>
+			<row>
+				<value column="0">pub_firststrike</value>
+				<value column="1">先攻</value>
+			</row>
+			<row>
+				<value column="0">pub_defense</value>
+				<value column="1">防御</value>
+			</row>
+			<row>
+				<value column="0">pub_dodge</value>
+				<value column="1">闪避</value>
+			</row>
+			<row>
+				<value column="0">pub_king</value>
+				<value column="1">王者</value>
+			</row>
+      <row>
+        <value column="0">pub_friend_text</value>
+        <value column="1">好友</value>
+      </row>
+      <row>
+        <value column="0">pub_delete_text</value>
+        <value column="1">删除</value>
+      </row>
+      <row>
+        <value column="0">pub_search_text</value>
+        <value column="1">搜索</value>
+      </row>
+      <row>
+        <value column="0">pub_inform_text</value>
+        <value column="1">通知</value>
+      </row>
+      <row>
+        <value column="0">pub_sysinform_text</value>
+        <value column="1">系统通知</value>
+      </row>
+      <row>
+        <value column="0">pub_challenge_text</value>
+        <value column="1">挑战</value>
+      </row>
+      <row>
+        <value column="0">pub_private_chat_text</value>
+        <value column="1">私聊</value>
+      </row>
+      <row>
+        <value column="0">pub_return_text</value>
+        <value column="1">返回</value>
+      </row>
+      <row>
+        <value column="0">pub_cancel_text</value>
+        <value column="1">取消</value>
+      </row>
+			<!--公共END-->
+			<!--登录-->
+			<row>
+				<value column="0">tool10000</value>
+				<value column="1">40088</value>
+			</row>
+			<row>
+				<value column="0">str10001</value>
+				<value column="1">点击换区</value>
+			</row>
+			<row>
+				<value column="0">login_imput_ac</value>
+				<value column="1">输入帐号</value>
+			</row>
+			<row>
+				<value column="0">login_imput_pa</value>
+				<value column="1">输入密码</value>
+			</row>
+			<row>
+				<value column="0">login_text1</value>
+				<value column="1">%s区%s</value>
+			</row>
+			<row>
+				<value column="0">login_maintain</value>
+				<value column="1">维护</value>
+			</row>
+			<row>
+				<value column="0">str10006</value>
+				<value column="1">良好</value>
+			</row>
+			<row>
+				<value column="0">str10007</value>
+				<value column="1">拥挤</value>
+			</row>
+			<row>
+				<value column="0">str10008</value>
+				<value column="1">爆满</value>
+			</row>
+			<row>
+				<value column="0">login_recommend</value>
+				<value column="1">推荐</value>
+			</row>
+			<row>
+				<value column="0">login_password_text1</value>
+				<value column="1">密码不一致</value>
+			</row>
+			<row>
+				<value column="0">login_password_text2</value>
+				<value column="1">账号或密码不足6位!!!</value>
+			</row>
+			<row>
+				<value column="0">login_password_text3</value>
+				<value column="1">帐号密码错误!!!</value>
+			</row>
+			<row>
+				<value column="0">str10013</value>
+				<value column="1">注册失败!!!</value>
+			</row>
+			<row>
+				<value column="0">str10014</value>
+				<value column="1">账号或密码长度超过20位!!!</value>
+			</row>
+			<row>
+				<value column="0">str10015</value>
+				<value column="1">账号或密码错误!!!</value>
+			</row>
+			<row>
+				<value column="0">str10016</value>
+				<value column="1">账号已存在!!!</value>
+			</row>
+			<row>
+				<value column="0">login_password_text4</value>
+				<value column="1">服务器维护中</value>
+			</row>
+			<row>
+				<value column="0">login_sever_laster</value>
+				<value column="1">上次登录的服务器</value>
+			</row>
+			<row>
+				<value column="0">login_sever_sel</value>
+				<value column="1">服务器%s--%s</value>
+			</row>
+			<row>
+				<value column="0">login_sever_all</value>
+				<value column="1">所有服务器</value>
+			</row>
+			<row>
+				<value column="0">login_sever_sel2</value>
+				<value column="1">%s--%s区</value>
+			</row>
+			<row>
+				<value column="0">login_timeout</value>
+				<value column="1">等待超时请检查</value>
+			</row>
+			<row>
+				<value column="0">login_confirm</value>
+				<value column="1">确定</value>
+			</row>
+			<row>
+				<value column="0">login_server_off</value>
+				<value column="1">与服务器断开连接...</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit</value>
+				<value column="1">长度超过%d个字符限制</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit2</value>
+				<value column="1">名字只能使用汉字、字母或数字</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit3</value>
+				<value column="1">包含屏蔽字,不能使用该名称</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit4</value>
+				<value column="1">请输入名字</value>
+			</row>
+			<row>
+				<value column="0">login_exit</value>
+				<value column="1">退出</value>
+			</row>
+			<row>
+				<value column="0">login_account</value>
+				<value column="1">账户</value>
+			</row>
+			<row>
+				<value column="0">login_password</value>
+				<value column="1">密码</value>
+			</row>
+			<row>
+				<value column="0">login_register</value>
+				<value column="1">注册</value>
+			</row>
+			<row>
+				<value column="0">login_register_account</value>
+				<value column="1">注册账号</value>
+			</row>
+			<row>
+				<value column="0">login_account2</value>
+				<value column="1">账户：</value>
+			</row>
+			<row>
+				<value column="0">login_password2</value>
+				<value column="1">密码：</value>
+			</row>
+			<row>
+				<value column="0">login_password3</value>
+				<value column="1">确认密码：</value>
+			</row>
+			<row>
+				<value column="0">login_recommend</value>
+				<value column="1">推荐</value>
+			</row>
+			<row>
+				<value column="0">login_server_all</value>
+				<value column="1">所有服务器</value>
+			</row>
+			<row>
+				<value column="0">login_server_new</value>
+				<value column="1">新的服务器</value>
+			</row>
+			<row>
+				<value column="0">login_server_at</value>
+				<value column="1">登录服务器</value>
+			</row>
+			<!--登录 END-->
+			<!--冒险 -->
+			<row>
+				<value column="0">adventure_map_sel</value>
+				<value column="1">地图选择</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_enter</value>
+				<value column="1">打开下个区域</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_team</value>
+				<value column="1">目前的阵容</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_need</value>
+				<value column="1">满足新区域的需要</value>
+			</row>
+			<row>
+				<value column="0">adventure_bag</value>
+				<value column="1">背包</value>
+			</row>
+			<row>
+				<value column="0">adventure_stre</value>
+				<value column="1">加强</value>
+			</row>
+			<row>
+				<value column="0">adventure_talkabout</value>
+				<value column="1">讨论</value>
+			</row>
+			<row>
+				<value column="0">adventure_drop</value>
+				<value column="1">掉落</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_btn</value>
+				<value column="1">地图</value>
+			</row>
+			<row>
+				<value column="0">str40010</value>
+				<value column="1">简单</value>
+			</row>
+			<row>
+				<value column="0">str40011</value>
+				<value column="1">普通</value>
+			</row>
+			<row>
+				<value column="0">str40012</value>
+				<value column="1">困难</value>
+			</row>
+			<row>
+				<value column="0">adventure_expro_info</value>
+				<value column="1">奖励预览</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_point</value>
+				<value column="1">检查点</value>
+			</row>
+			<row>
+				<value column="0">adventure_world_chat</value>
+				<value column="1">世界聊天</value>
+			</row>
+			<row>
+				<value column="0">adventure_union_chat</value>
+				<value column="1">工会聊天</value>
+			</row>
+			<row>
+				<value column="0">adventure_private_chat</value>
+				<value column="1">私人聊天</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info</value>
+				<value column="1">奖励信息</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info1</value>
+				<value column="1">一级</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info2</value>
+				<value column="1">两级</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info3</value>
+				<value column="1">三级</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info4</value>
+				<value column="1">四级</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info5</value>
+				<value column="1">Boss的水平</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_memo</value>
+				<value column="1">难度越高，获得奖励的几率越大</value>
+			</row>
+			<row>
+				<value column="0">adventure_stage_talk</value>
+				<value column="1">章节攻略</value>
+			</row>
+			<row>
+				<value column="0">adventure_stage_addtalk</value>
+				<value column="1">写攻略</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprlo_re</value>
+				<value column="1">探索结果</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprlo_text</value>
+				<value column="1">数量/ 上限</value>
+			</row>
+			<row>
+				<value column="0">adventure_lock</value>
+				<value column="1">关卡没有解锁</value>
+			</row>
+			<row>
+				<value column="0">adventure_battle</value>
+				<value column="1">战斗</value>
+			</row>
+			<row>
+				<value column="0">adventure_find</value>
+				<value column="1">发现大陆</value>
+			</row>
+			<row>
+				<value column="0">adventure_player_info</value>
+				<value column="1">玩家信息</value>
+			</row>
+			<row>
+				<value column="0">adventure_player_name</value>
+				<value column="1">名称：</value>
+			</row>
+			<row>
+				<value column="0">str40045</value>
+				<value column="1">公会：</value>
+			</row>
+			<row>
+				<value column="0">adventure_pull_back</value>
+				<value column="1">拉黑</value>
+			</row>
+			<row>
+				<value column="0">adventure_friend_add</value>
+				<value column="1">添加</value>
+			</row>
+			<row>
+				<value column="0">adventure_friend_chat</value>
+				<value column="1">聊天</value>
+			</row>
+			<row>
+				<value column="0">adventure_friend_nil</value>
+				<value column="1">无</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_private</value>
+				<value column="1">私人聊天</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_input</value>
+				<value column="1">请输入内容</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_no</value>
+				<value column="1">没有人聊天</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_add_succeed</value>
+				<value column="1">添加好友成功</value>
+			</row>
+			<row>
+				<value column="0">setting_lang</value>
+				<value column="1">语言：</value>
+			</row>
+			<row>
+				<value column="0">setting_black_list</value>
+				<value column="1">黑名单</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data1</value>
+				<value column="1">经验书</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data2</value>
+				<value column="1">未知钱袋</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data3</value>
+				<value column="1">随机道具</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data4</value>
+				<value column="1">英雄礼包</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprol_diamond</value>
+				<value column="1">钻石不足</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprol_max</value>
+				<value column="1">到达最大栏位</value>
+			</row>
+			<row>
+				<value column="0">adventure_get_exp</value>
+				<value column="1">获得经验:</value>
+			</row>
+			<row>
+				<value column="0">adventure_get_gold</value>
+				<value column="1">获得金币:</value>
+			</row>
+			<row>
+				<value column="0">adventure_offline_time</value>
+				<value column="1">挂机时间</value>
+			</row>
+			<row>
+				<value column="0">adventure_offline_sub</value>
+				<value column="1">挂机结算</value>
+			</row>
+			<row>
+				<value column="0">adventure_goto</value>
+				<value column="1">前往</value>
+			</row>
+			<row>
+				<value column="0">adventure_consume</value>
+				<value column="1">花费</value>
+			</row>
+			<row>
+				<value column="0">adventure_battle_ready</value>
+				<value column="1">战斗准备</value>
+			</row>
+			<!--冒险 END-->
+			<!--大厅 -->
+			<row>
+				<value column="0">hall_forum</value>
+				<value column="1">论坛</value>
+			</row>
+			<row>
+				<value column="0">hall_bag</value>
+				<value column="1">礼包</value>
+			</row>
+			<row>
+				<value column="0">hall_friend</value>
+				<value column="1">朋友</value>
+			</row>
+			<row>
+				<value column="0">hall_set</value>
+				<value column="1">设置</value>
+			</row>
+			<row>
+				<value column="0">hall_shop</value>
+				<value column="1">商店</value>
+			</row>
+			<row>
+				<value column="0">hall_darly</value>
+				<value column="1">每日</value>
+			</row>
+			<row>
+				<value column="0">hall_activity</value>
+				<value column="1">活动</value>
+			</row>
+			<row>
+				<value column="0">hall_honor</value>
+				<value column="1">荣誉</value>
+			</row>
+			<row>
+				<value column="0">hall_city</value>
+				<value column="1">市场</value>
+			</row>
+			<row>
+				<value column="0">hall_notice</value>
+				<value column="1">公告</value>
+			</row>
+			<row>
+				<value column="0">hall_card</value>
+				<value column="1">月卡</value>
+			</row>
+			<row>
+				<value column="0">hall_mail</value>
+				<value column="1">邮件</value>
+			</row>
+			<row>
+				<value column="0">hall_home</value>
+				<value column="1">主页</value>
+			</row>
+			<row>
+				<value column="0">hall_adventure</value>
+				<value column="1">冒险</value>
+			</row>
+			<row>
+				<value column="0">hall_mine</value>
+				<value column="1">挖矿</value>
+			</row>
+			<row>
+				<value column="0">hall_pvp</value>
+				<value column="1">PVP</value>
+			</row>
+			<row>
+				<value column="0">hall_call</value>
+				<value column="1">召唤</value>
+			</row>
+			<row>
+				<value column="0">hall_hero</value>
+				<value column="1">英雄</value>
+			</row>
+			<row>
+				<value column="0">setting_china</value>
+				<value column="1">中文简体</value>
+			</row>
+			<row>
+				<value column="0">setting_english</value>
+				<value column="1">英语</value>
+			</row>
+			<row>
+				<value column="0">setting_jp</value>
+				<value column="1">日本语</value>
+			</row>
+			<!--大厅 END-->
+			<row>
+				<value column="0">str190001</value>
+				<value column="1">首冲赠送</value>
+			</row>
+			<row>
+				<value column="0">str190002</value>
+				<value column="1">赠送紫色英雄</value>
+			</row>
+			<row>
+				<value column="0">str190003</value>
+				<value column="1">礼包内容</value>
+			</row>
+			<row>
+				<value column="0">str190004</value>
+				<value column="1">去首冲以获得超值奖励</value>
+			</row>
+			<row>
+				<value column="0">str190005</value>
+				<value column="1">每个账号仅限一次</value>
+			</row>
+			<row>
+				<value column="0">str190006</value>
+				<value column="1">首冲</value>
+			</row>
+			<row>
+				<value column="0">str190007</value>
+				<value column="1">首冲礼包</value>
+			</row>
+		<!-- achi  成就 14-->
+			<row>
+				<value column="0">achititle</value>
+				<value column="1">成就</value>
+			</row>
+			<row>
+				<value column="0">achiget</value>
+				<value column="1">领取</value>
+			</row>
+			<row>
+				<value column="0">achitext3</value>
+				<value column="1">当前进度：</value>
+			</row>
+			<row>
+				<value column="0">achitext4</value>
+				<value column="1">{1}/{2}</value>
+			</row>
+		<!-- achi  END-->
+		<!-- bag背包 -->
+			<row>
+				<value column="0">bag_prop</value>
+				<value column="1">道具背包</value>
+			</row>
+			<row>
+				<value column="0">bag_res</value>
+				<value column="1">资源背包</value>
+			</row>
+			<row>
+				<value column="0">bag_mineprop</value>
+				<value column="1">矿工道具</value>
+			</row>
+			<row>
+				<value column="0">bagtext1</value>
+				<value column="1">矿镐耐久度</value>
+			</row>
+			<row>
+				<value column="0">bagtext2</value>
+				<value column="1">{1}/{2}</value>
+			</row>
+			<row>
+				<value column="0">bagtoplimit</value>
+				<value column="1">上限</value>
+			</row>
+			<row>
+				<value column="0">baguse</value>
+				<value column="1">使用</value>
+			</row>
+			<row>
+				<value column="0">bagtext3</value>
+				<value column="1">开1个</value>
+			</row>
+			<row>
+				<value column="0">bagtext4</value>
+				<value column="1">开5个</value>
+			</row>
+			<row>
+				<value column="0">bag_buy</value>
+				<value column="1">购买</value>
+			</row>
+			<row>
+				<value column="0">bagtext5</value>
+				<value column="1">解锁背包格子</value>
+			</row>
+			<row>
+				<value column="0">bagtext6</value>
+				<value column="1">使用{1}钻石打开{2}个背包格子</value>
+			</row>
+			<row>
+				<value column="0">bagtext7</value>
+				<value column="1">钻石不足</value>
+			</row>
+			<row>
+				<value column="0">bag_miner</value>
+				<value column="1">矿石</value>
+			</row>
+			<row>
+				<value column="0">bagtext8</value>
+				<value column="1">物品不足</value>
+			</row>
+			<row>
+				<value column="0">bagcal</value>
+				<value column="1">取消</value>
+			</row>
+			<row>
+				<value column="0">bagcom</value>
+				<value column="1">确定</value>
+			</row>
+			<row>
+				<value column="0">bagminetext1</value>
+				<value column="1">主要资源</value>
+			</row>
+			<row>
+				<value column="0">bagminetext2</value>
+				<value column="1">主要资源</value>
+			</row>
+			<row>
+				<value column="0">bagminetext3</value>
+				<value column="1">主要资源</value>
+			</row>
+			<row>
+				<value column="0">bagminetext4</value>
+				<value column="1">主要资源</value>
+			</row>
+			<row>
+				<value column="0">bagmoneytext1</value>
+				<value column="1">钻石消耗</value>
+			</row>
+			<row>
+				<value column="0">bagmoneytext2</value>
+				<value column="1">消费</value>
+			</row>
+		<!-- bag背包 END -->
+		<!-- mine 矿区 370000 -->			
+			<row>
+				<value column="0">minename</value>
+				<value column="1">Primary ore</value>
+			</row>
+			<row>
+				<value column="0">minetext1</value>
+				<value column="1">{1}/{2}</value>
+			</row>
+			<row>
+				<value column="0">mineLv</value>
+				<value column="1">Lv.{1}</value>
+			</row>
+			<row>
+				<value column="0">minebomnum</value>
+				<value column="1">x{1}</value>
+			</row>
+			<row>
+				<value column="0">mineview</value>
+				<value column="1">放大</value>
+			</row>
+			<row>
+				<value column="0">minecoord</value>
+				<value column="1">X:{1}  Y:{2}</value>
+			</row>
+			<row>
+				<value column="0">minetest7</value>
+				<value column="1">正在开采矿</value>
+			</row>
+			<row>
+				<value column="0">minebox</value>
+				<value column="1">宝箱</value>
+			</row>
+			<row>
+				<value column="0">mineboss</value>
+				<value column="1">魔像</value>
+			</row>
+			<row>
+				<value column="0">minetest10</value>
+				<value column="1">没有相邻的空地</value>
+			</row>
+			<row>
+				<value column="0">minetest11</value>
+				<value column="1">没有空闲的矿镐</value>
+			</row>
+			<row>
+				<value column="0">minetest12</value>
+				<value column="1">矿场标记</value>
+			</row>
+			<row>
+				<value column="0">minetest13</value>
+				<value column="1">所选的矿石显示在地图上.</value>
+			</row>
+			<row>
+				<value column="0">mineenlarg</value>
+				<value column="1">放大</value>
+			</row>
+			<row>
+				<value column="0">minesign</value>
+				<value column="1">标记</value>
+			</row>
+			<row>
+				<value column="0">minetest16</value>
+				<value column="1">矿镐不足</value>
+			</row>
+			<row>
+				<value column="0">minetest17</value>
+				<value column="1">还没满足条件</value>
+			</row>
+			<!-- mine 矿区 380000 -->
+			<row>
+				<value column="0">minereplace</value>
+				<value column="1">矿物更换</value>
+			</row>
+			<row>
+				<value column="0">minetime</value>
+				<value column="1">00:05:26</value>
+			</row>
+			<row>
+				<value column="0">minetxet5</value>
+				<value column="1">矿工升级</value>
+			</row>
+			<row>
+				<value column="0">minetxet6</value>
+				<value column="1">当前拥有{1}</value>
+			</row>
+			<!-- mine 矿区 END -->
+			<!-- workshop 工坊 390000 -->
+			<row>
+				<value column="0">workshoptext1</value>
+				<value column="1">工坊区间</value>
+			</row>
+			<row>
+				<value column="0">workshoptime</value>
+				<value column="1">1:60:60</value>
+			</row>
+			<row>
+				<value column="0">workshopstonglv</value>
+				<value column="1">强化等级</value>
+			</row>
+			<row>
+				<value column="0">workshoptext4</value>
+				<value column="1">你可从矿石副本获得{1}-{2}个 </value>
+			</row>
+			<row>
+				<value column="0">workshoptext5</value>
+				<value column="1">选择挖矿时间</value>
+			</row>
+			<row>
+				<value column="0">workshoptext6</value>
+				<value column="1">工程消费</value>
+			</row>
+			<row>
+				<value column="0">workshoptext7</value>
+				<value column="1">60m</value>
+			</row>
+			<row>
+				<value column="0">workshoptext8</value>
+				<value column="1">120m</value>
+			</row>
+			<row>
+				<value column="0">workshoptext9</value>
+				<value column="1">240m</value>
+			</row>
+			<row>
+				<value column="0">workshoptext10</value>
+				<value column="1">480m</value>
+			</row>
+			<row>
+				<value column="0">workshopfinish</value>
+				<value column="1">结束</value>
+			</row>
+			<row>
+				<value column="0">workshopreward</value>
+				<value column="1">奖励</value>
+			</row>
+			<row>
+				<value column="0">workshoptext17</value>
+				<value column="1">钻石消耗</value>
+			</row>
+			<row>
+				<value column="0">workshoptext18</value>
+				<value column="1">消费</value>
+			</row>
+			<row>
+				<value column="0">workshoptext19</value>
+				<value column="1">获取{1}</value>
+			</row>
+			<!-- workshop END -->
+			<row>
+				<value column="0">str30001</value>
+				<value column="1">普通攻击</value>
+			</row>
+			<row>
+				<value column="0">str30002</value>
+				<value column="1">闪避</value>
+			</row>
+			<row>
+				<value column="0">str10030</value>
+				<value column="1">teanslate</value>
+			</row>
+			<row>
+				<value column="0">str10031</value>
+				<value column="1">音乐（关）</value>
+			</row>
+			<row>
+				<value column="0">str10032</value>
+				<value column="1">声（开）</value>
+			</row>
+			<row>
+				<value column="0">str10033</value>
+				<value column="1">音乐（开）</value>
+			</row>
+			<row>
+				<value column="0">str10034</value>
+				<value column="1">声（关）</value>
+			</row>
+			<row>
+				<value column="0">str150001</value>
+				<value column="1">市场</value>
+			</row>
+			<row>
+				<value column="0">str150002</value>
+				<value column="1">黑市</value>
+			</row>
+			<row>
+				<value column="0">str150003</value>
+				<value column="1">神秘商店</value>
+			</row>
+			<row>
+				<value column="0">str150004</value>
+				<value column="1">接收</value>
+			</row>
+			<row>
+				<value column="0">str150005</value>
+				<value column="1">完成所有订单将是一个额外的激励</value>
+			</row>
+			<row>
+				<value column="0">str150006</value>
+				<value column="1">完成</value>
+			</row>
+			<row>
+				<value column="0">str150007</value>
+				<value column="1">秩序</value>
+			</row>
+			<row>
+				<value column="0">str150008</value>
+				<value column="1">订单需求</value>
+			</row>
+			<row>
+				<value column="0">str150009</value>
+				<value column="1">奖励</value>
+			</row>
+			<row>
+				<value column="0">str150100</value>
+				<value column="1">强化道具</value>
+			</row>
+			<row>
+				<value column="0">str150101</value>
+				<value column="1">点击屏幕退出</value>
+			</row>
+			<!--Pvp-->
+			<row>
+				<value column="0">pvp_title</value>
+				<value column="1">竞技</value>
+			</row>
+			<row>
+				<value column="0">pvp_rank</value>
+				<value column="1">排名</value>
+			</row>
+			<row>
+				<value column="0">pvp_reset_time</value>
+				<value column="1">重置时间</value>
+			</row>
+			<!--Pvp END-->
+			<!--召唤(抽卡) -->
+			<row>
+				<value column="0">call_title</value>
+				<value column="1">佣兵召唤</value>
+			</row>
+			<row>
+				<value column="0">call_temple_title</value>
+				<value column="1">天空神殿</value>
+			</row>
+			<row>
+				<value column="0">call_ten_times</value>
+				<value column="1">十次召唤</value>
+			</row>
+			<row>
+				<value column="0">call_quality_1</value>
+				<value column="1">白将</value>
+			</row>
+			<row>
+				<value column="0">call_quality_2</value>
+				<value column="1">绿将</value>
+			</row>
+			<row>
+				<value column="0">call_quality_3</value>
+				<value column="1">蓝将</value>
+			</row>
+			<row>
+				<value column="0">call_quality_4</value>
+				<value column="1">紫将</value>
+			</row>
+			<row>
+				<value column="0">call_quality_5</value>
+				<value column="1">橙将</value>
+			</row>
+			<row>
+				<value column="0">call_quality_6</value>
+				<value column="1">金将</value>
+			</row>
+			<row>
+				<value column="0">call_diamond_tip1</value>
+				<value column="1">召唤十次必出一个</value>
+			</row>
+			<row>
+				<value column="0">call_diamond_tip2</value>
+				<value column="1">紫色英雄</value>
+			</row>
+			<row>
+				<value column="0">call_friendship_tip</value>
+				<value column="1">通过好友互送可获得友情点</value>
+			</row>
+			<row>
+				<value column="0">call_gold_tip</value>
+				<value column="1">每次召唤金币消费增加</value>
+			</row>
+			<!--召唤(抽卡) END-->
+			<!--竞技场-->
+			<row>
+				<value column="0">arena_streak</value>
+				<value column="1">%d连胜</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_list</value>
+				<value column="1">刷新列表</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_title</value>
+				<value column="1">钻石刷新</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_arena</value>
+				<value column="1">花费钻石刷新竞技场</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_time_left</value>
+				<value column="1">剩余刷新时间:</value>
+			</row>
+			<!--竞技场 END-->
+			<!--排位赛-->
+			<row>
+				<value column="0">rankedmatch_title</value>
+				<value column="1">世界排名</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_cd</value>
+				<value column="1">挑战冷却</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_exchange</value>
+				<value column="1">物品兑换</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_reward_rule</value>
+				<value column="1">奖励规则</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_daily_reward</value>
+				<value column="1">每日奖励</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_rank1</value>
+				<value column="1">No.%d</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_rank2</value>
+				<value column="1">No.%d-%d</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_rank_rule</value>
+				<value column="1">排位赛规则</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_tip1</value>
+				<value column="1">每天22:00, 系统会根据您当前排名, 将当前排位奖励发送至好友邮箱</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_tip2</value>
+				<value column="1">提示: 当某人挑战你时, 你的队伍将是你上一次挑战胜利时的阵容</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_tip3</value>
+				<value column="1">挑战联赛玩家并通过胜利来为自己赢得排名, 同时22:00的排名将为你赢得相应的奖励.</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_cd_error</value>
+				<value column="1">挑战倒计时未结束, 还不能挑战其他玩家</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_change</value>
+				<value column="1">兑换</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_change_error</value>
+				<value column="1">%s不足, 无法兑换</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_open_error</value>
+				<value column="1">通关%s后开启</value>
+			</row>
+			<!--排位赛 END-->
+			<!--特殊本copy-->
+			<row>
+				<value column="0">copy_date0</value>
+				<value column="1">星期天</value>
+			</row>
+			<row>
+				<value column="0">copy_date1</value>
+				<value column="1">星期一</value>
+			</row>
+			<row>
+				<value column="0">copy_date2</value>
+				<value column="1">星期二</value>
+			</row>
+			<row>
+				<value column="0">copy_date3</value>
+				<value column="1">星期三</value>
+			</row>
+			<row>
+				<value column="0">copy_date4</value>
+				<value column="1">星期四</value>
+			</row>
+			<row>
+				<value column="0">copy_date5</value>
+				<value column="1">星期五</value>
+			</row>
+			<row>
+				<value column="0">copy_date6</value>
+				<value column="1">星期六</value>
+			</row>
+			<row>
+				<value column="0">copy_opening_time</value>
+				<value column="1">开放时间</value>
+			</row>
+			<row>
+				<value column="0">copy_challenge_times</value>
+				<value column="1">挑战次数:</value>
+			</row>
+			<row>
+				<value column="0">copy_consume</value>
+				<value column="1">消耗</value>
+			</row>
+			<row>
+				<value column="0">copy_enemy_info</value>
+				<value column="1">敌方信息</value>
+			</row>
+			<row>
+				<value column="0">copy_level_info</value>
+				<value column="1">关卡描述</value>
+			</row>
+			<row>
+				<value column="0">copy_loot_list</value>
+				<value column="1">掉落列表</value>
+			</row>
+			<row>
+				<value column="0">copy_start_battle</value>
+				<value column="1">开始战斗</value>
+			</row>
+			<row>
+				<value column="0">copy_enemy_attr</value>
+				<value column="1">敌方战力和属性</value>
+			</row>
+			<row>
+				<value column="0">copy_enemy_skill</value>
+				<value column="1">敌方技能%d: %s</value>
+			</row>
+			<row>
+				<value column="0">copy_buy_count_short</value>
+				<value column="1">可购买次数不足</value>
+			</row>
+			<row>
+				<value column="0">copy_buy_count</value>
+				<value column="1">挑战可购买次数:</value>
+			</row>
+			<row>
+				<value column="0">copy_buy_cost</value>
+				<value column="1">购买消耗:</value>
+			</row>
+			<row>
+				<value column="0">copy_can_buy_count</value>
+				<value column="1">购买挑战次数</value>
+			</row>
+			<row>
+				<value column="0">copy_cost</value>
+				<value column="1">花费:</value>
+			</row>
+			<row>
+				<value column="0">copy_opening_date</value>
+				<value column="1">%s在%s开放</value>
+			</row>
+			<!--特殊本copy END-->
+			<!--服务端文本server -->
+			<row>
+				<value column="0">Err1104</value>
+				<value column="1">对方已经是你的好友！</value>
+			</row>
+			<row>
+				<value column="0">Err1105</value>
+				<value column="1">成功发送申请信息！</value>
+			</row>
+			<row>
+				<value column="0">Err1106</value>
+				<value column="1">您已向该玩家发送好友申请，请耐心等待！</value>
+			</row>
+			<row>
+				<value column="0">Err1107</value>
+				<value column="1">拒绝你的好友申请！</value>
+			</row>
+			<row>
+				<value column="0">Err1101</value>
+				<value column="1">不能添加自己为好友！</value>
+			</row>
+			<row>
+				<value column="0">Err1102</value>
+				<value column="1">对方不是你的好友！</value>
+			</row>
+			<row>
+				<value column="0">Err1103</value>
+				<value column="1">对方不允许申请</value>
+			</row>
+			<row>
+				<value column="0">Err1108</value>
+				<value column="1">您的好友已达到最大数%s个！</value>
+			</row>
+			<row>
+				<value column="0">Err1109</value>
+				<value column="1">对方的好友已达到最大数量！</value>
+			</row>
+			<row>
+				<value column="0">Sys4310</value>
+				<value column="1">排名赛奖励</value>
+			</row>
+			<row>
+				<value column="0">Err1005</value>
+				<value column="1">名称不合法！</value>
+			</row>
+			<row>
+				<value column="0">Err1004</value>
+				<value column="1">帐号已存在</value>
+			</row>
+			<row>
+				<value column="0">Err1007</value>
+				<value column="1">帐号或密码不正确</value>
+			</row>
+			<row>
+				<value column="0">Err1006</value>
+				<value column="1">名称已存在！</value>
+			</row>
+			<row>
+				<value column="0">Err1001</value>
+				<value column="1">角色名重复</value>
+			</row>
+			<row>
+				<value column="0">Err1003</value>
+				<value column="1">名称不能为空</value>
+			</row>
+			<row>
+				<value column="0">Err1002</value>
+				<value column="1">角色已存在</value>
+			</row>
+			<row>
+				<value column="0">Err4401</value>
+				<value column="1">打过啦</value>
+			</row>
+			<row>
+				<value column="0">Err4305</value>
+				<value column="1">您正在被挑战中,无法挑战</value>
+			</row>
+			<row>
+				<value column="0">Err4304</value>
+				<value column="1">您的挑战时间未到</value>
+			</row>
+			<row>
+				<value column="0">Err4307</value>
+				<value column="1">挑战次数不足</value>
+			</row>
+			<row>
+				<value column="0">Err4306</value>
+				<value column="1">该玩家正在被挑战,无法挑战</value>
+			</row>
+			<row>
+				<value column="0">Err4301</value>
+				<value column="1">此功能在%s_%s开放</value>
+			</row>
+			<row>
+				<value column="0">Err4303</value>
+				<value column="1">不能挑战自己</value>
+			</row>
+			<row>
+				<value column="0">Err4302</value>
+				<value column="1">该排名对手已经改变,将为您刷新对手</value>
+			</row>
+			<row>
+				<value column="0">Err4309</value>
+				<value column="1">您的排名已经改变,将为您刷新对手</value>
+			</row>
+			<row>
+				<value column="0">Err4308</value>
+				<value column="1">不能挑战比自己名次低的</value>
+			</row>
+			<row>
+				<value column="0">Mail1201</value>
+				<value column="1">升级奖励</value>
+			</row>
+			<row>
+				<value column="0">Mail1202</value>
+				<value column="1">*14恭喜您达到*09%s*14级，请收下这些奖励吧！</value>
+			</row>
+			<row>
+				<value column="0">Err3902</value>
+				<value column="1">世界频道发言需要间隔%s秒，请稍后再试。</value>
+			</row>
+			<row>
+				<value column="0">Err3903</value>
+				<value column="1">没有该玩家，请确认后重试。</value>
+			</row>
+			<row>
+				<value column="0">Err3901</value>
+				<value column="1">你已被禁言！！</value>
+			</row>
+			<row>
+				<value column="0">Err3904</value>
+				<value column="1">该玩家处于离线状态</value>
+			</row>
+			<row>
+				<value column="0">Err3905</value>
+				<value column="1">该玩家不在你的黑名单中</value>
+			</row>
+			<row>
+				<value column="0">Err1088</value>
+				<value column="1">角色名重复</value>
+			</row>
+			<!--服务端文本server END-->
+			<!--礼包详情-->
+			<row>
+				<value column="0">gift_page_title_left</value>
+				<value column="1">系统礼包</value>
+			</row>
+			<row>
+				<value column="0">gift_page_title_right</value>
+				<value column="1">好友礼包</value>
+			</row>
+			<row>
+				<value column="0">gift_onkey_btn_text</value>
+				<value column="1">一键领取</value>
+			</row>
+			<row>
+				<value column="0">gift_bottom_text</value>
+				<value column="1">所有礼包保存7天</value>
+			</row>
+			<row>
+				<value column="0">gift_des_text</value>
+				<value column="1">本日还可领取友情：</value>
+			</row>
+			<row>
+				<value column="0">gift_hint_text</value>
+				<value column="1">没有礼包可以领</value>
+			</row>
+			<!--礼包详情END-->
+			<!--签到模块-->
+			<row>
+				<value column="0">daily_title1</value>
+				<value column="1">每日签到</value>
+			</row>
+			<row>
+				<value column="0">daily_title2</value>
+				<value column="1">每日祈祷</value>
+			</row>
+			<row>
+				<value column="0">daily_title3</value>
+				<value column="1">每日炼金</value>
+			</row>
+			<row>
+				<value column="0">daily_more_btn</value>
+				<value column="1">更多奖励</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_btn</value>
+				<value column="1">签到</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_time_text</value>
+				<value column="1">累计签到%d次即可获得</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_des_text</value>
+				<value column="1">死忠粉福利！累计签到达到一定次数即可获得累签奖励！</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_over_text</value>
+				<value column="1">今日已签到</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text1</value>
+				<value column="1">首签</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text2</value>
+				<value column="1">次签</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text3</value>
+				<value column="1">三签</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_title_text1</value>
+				<value column="1">每天0-12:00点，12-18:00点，18-24:00点，都有领取奖励的机会。</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_title_text2</value>
+				<value column="1">每日可用1次祈祷术，按照当前祈祷等级获得大量经验以及附带的荣誉碎片，还可提升祈祷等级。</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_title_text3</value>
+				<value column="1">每日可用1次炼金术，按照当前炼金等级获得大量金币以及附带的荣誉碎片，还可提升炼金等级。</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_over_btn</value>
+				<value column="1">今天已经使用过</value>
+			</row>
+			<row>
+				<value column="0">daily_page2_item_text1</value>
+				<value column="1">普通祈祷（炼金等级+%d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page2_item_text2</value>
+				<value column="1">中级祈祷（炼金等级+%d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page2_item_text3</value>
+				<value column="1">神圣祈祷（炼金等级+%d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page3_item_text1</value>
+				<value column="1">普通炼金（炼金等级+%d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page3_item_text2</value>
+				<value column="1">中级炼金（炼金等级+%d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page3_item_text3</value>
+				<value column="1">神圣炼金（炼金等级+%d）</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text</value>
+				<value column="1">奖励：</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_title1</value>
+				<value column="1">一周签到奖励</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_title2</value>
+				<value column="1">累计签到奖励</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_time_text</value>
+				<value column="1">%d月%d日</value>
+			</row>
+			<row>
+				<value column="0">daily_not_select_text</value>
+				<value column="1">还没选择奖励项</value>
+			</row>
+			<!--签到模块END-->
+			<!--好友模块-->
+      <row>
+        <value column="0">friend_search_btn</value>
+        <value column="1">搜索好友</value>
+      </row>
+      <row>
+        <value column="0">friend_search_hint_text</value>
+        <value column="1">请输入你要搜索的好友ID</value>
+      </row>
+      <row>
+        <value column="0">friend_search_des_text</value>
+        <value column="1">一天只能发送20个好友申请</value>
+      </row>
+      <row>
+        <value column="0">friend_player_msg_title</value>
+        <value column="1">玩家信息</value>
+      </row>
+      <row>
+        <value column="0">friend_refuse_text</value>
+        <value column="1">拒绝好友申请</value>
+      </row>
+      <row>
+        <value column="0">friend_add_friend_btn</value>
+        <value column="1">加好友</value>
+      </row>
+      <row>
+        <value column="0">friend_delete_friend_text</value>
+        <value column="1">删除好友</value>
+      </row>
+      <row>
+        <value column="0">friend_delete_des_text</value>
+        <value column="1">您确认删除该好友吗？</value>
+      </row>
+      <row>
+        <value column="0">friend_name_text</value>
+        <value column="1">名字：</value>
+      </row>
+      <row>
+        <value column="0">friend_title_des_text</value>
+        <value column="1">今日还可获得友情点：</value>
+      </row>
+      <row>
+        <value column="0">friend_other_linkup</value>
+        <value column="1">对方阵容</value>
+      </row>
+      <row>
+        <value column="0">friend_hour_ago</value>
+        <value column="1">%d小时内</value>
+      </row>
+      <row>
+        <value column="0">friend_hours_after</value>
+        <value column="1">%d小时前</value>
+      </row>
+      <row>
+        <value column="0">friend_days_after</value>
+        <value column="1">%d天前</value>
+      </row>
+			<!--好友模块END-->
+      <!--强化模块-->
+      <row>
+        <value column="0">pub_strengthen_text</value>
+        <value column="1">强化</value>
+      </row>
+      <row>
+        <value column="0">strengthen_title1</value>
+        <value column="1">英雄升级</value>
+      </row>
+      <row>
+        <value column="0">strengthen_title2</value>
+        <value column="1">武具强化</value>
+      </row>
+      <row>
+        <value column="0">strengthen_upgrade_btn</value>
+        <value column="1">升级</value>
+      </row>
+      <row>
+        <value column="0">strengthen_trans_btn</value>
+        <value column="1">转生</value>
+      </row>
+      <row>
+        <value column="0">strengthen_break_btn</value>
+        <value column="1">突破</value>
+      </row>
+      <row>
+        <value column="0">strengthen_forge_btn</value>
+        <value column="1">锻造</value>
+      </row>
+      <row>
+        <value column="0">strengthen_deblocking_btn</value>
+        <value column="1">解锁</value>
+      </row>
+      <row>
+        <value column="0">strengthen_weapon_forge_text</value>
+        <value column="1">武具锻造</value>
+      </row>
+      <!--强化模块END-->
+      <!--英雄养成模块-->
+      <row>
+        <value column="0">heroinfo_clear_text</value>
+        <value column="1">洗练</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_need_thing_text</value>
+        <value column="1">需要材料：</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_des_text</value>
+        <value column="1">转生满后可突破</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_hero_clear_text</value>
+        <value column="1">英雄洗练</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_hero_clear_des_text</value>
+        <value column="1">洗练可随机获得属性</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_clear_save_text</value>
+        <value column="1">保存</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_hero_advance_text</value>
+        <value column="1">进阶</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_hero_advance_num</value>
+        <value column="1">%d阶详情</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_hero_back_text</value>
+        <value column="1">英雄背景</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_hero_skill_name</value>
+        <value column="1">技能名字</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_hero_weapon_name</value>
+        <value column="1">武具名字</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_activate_text</value>
+        <value column="1">已激活</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_not_activate_text</value>
+        <value column="1">未激活</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_look_fit_text</value>
+        <value column="1">查看合体</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_background_text</value>
+        <value column="1">背景</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_forge_level</value>
+        <value column="1">锻造等级</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_promote_fight</value>
+        <value column="1">提升战力</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_forge_level_deblocking</value>
+        <value column="1">武具锻造%d级后可解锁</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_used_diamond_up</value>
+        <value column="1">消耗钻石提高成功率</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_forge_succeed_rate</value>
+        <value column="1">锻造成功率%s</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_add_forge_succeed_rate</value>
+        <value column="1">增加%s成功率</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_weapon_deblocking</value>
+        <value column="1">武具解锁</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_eblocking_level</value>
+        <value column="1">解锁等级</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_eblocking_addatt</value>
+        <value column="1">解锁后增加属性</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_now_equipment</value>
+        <value column="1">当前装备：</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_success_rate_min</value>
+        <value column="1">成功率已减到最低</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_success_rate_max</value>
+        <value column="1">成功率已满</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_forge_success</value>
+        <value column="1">锻造成功</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_forge_fail</value>
+        <value column="1">锻造失败</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_eblocking_success</value>
+        <value column="1">解锁成功</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_equipment_text</value>
+        <value column="1">装备</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_gain_text</value>
+        <value column="1">已获得</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_not_gain_text</value>
+        <value column="1">未获得</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_effect_text</value>
+        <value column="1">效果：</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_have_equipment</value>
+        <value column="1">已装备</value>
+      </row>
+      <row>
+        <value column="0">heroinfo_no_material</value>
+        <value column="1">您的材料不足</value>
+      </row>
+			<!--英雄养成模块END-->	
+			<!--商店-->
+			<row>
+				<value column="0">shop_purchase_success</value>
+				<value column="1">购买成功</value>
+			</row>
+			<row>
+				<value column="0">shop_monthcard</value>
+				<value column="1">月卡</value>
+			</row>
+			<!--商店 END-->
+			<!--阵容-->
+			<row>
+				<value column="0">leg_simdetail_explain</value>
+				<value column="1">你的第一个回合技能覆盖率100%查看详情.</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend</value>
+				<value column="1">推荐</value>
+			</row>
+			<row>
+				<value column="0">leg_change</value>
+				<value column="1">更改</value>
+			</row>
+			<row>
+				<value column="0">leg_viewdetails</value>
+				<value column="1">查看详情</value>
+			</row>
+			<row>
+				<value column="0">leg_fire</value>
+				<value column="1">解雇</value>
+			</row>
+			<row>
+				<value column="0">leg_see</value>
+				<value column="1">查看</value>
+			</row>
+			<row>
+				<value column="0">leg_sort</value>
+				<value column="1">排序</value>
+			</row>
+			<row>
+				<value column="0">leg_num</value>
+				<value column="1">数量</value>
+			</row>
+			<row>
+				<value column="0">leg_level_lv</value>
+				<value column="1">Lv.%d</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_lineup</value>
+				<value column="1">推荐阵容</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_explain</value>
+				<value column="1">Gexiujin SAMA,  我需要你帮我推荐一个适合乐阵容?</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_strike</value>
+				<value column="1">暴击流阵容</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_reply</value>
+				<value column="1">回复流阵容</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_pure</value>
+				<value column="1">纯粹流阵容</value>
+			</row>
+			<row>
+				<value column="0">str570033</value>
+				<value column="1">Snermea one</value>
+			</row>
+			<row>
+				<value column="0">leg_al_activate</value>
+				<value column="1">已激活</value>
+			</row>
+			<row>
+				<value column="0">leg_not_activate</value>
+				<value column="1">未激活</value>
+			</row>
+			<row>
+				<value column="0">leg_seehere</value>
+				<value column="1">看这里</value>
+			</row>
+			<row>
+				<value column="0">str570043</value>
+				<value column="1">战斗力排序</value>
+			</row>
+			<row>
+				<value column="0">leg_level</value>
+				<value column="1">等级</value>
+			</row>
+			<row>
+				<value column="0">leg_fighting</value>
+				<value column="1">战力</value>
+			</row>
+			<row>
+				<value column="0">leg_strengthen</value>
+				<value column="1">转生</value>
+			</row>
+			<row>
+				<value column="0">leg_awaken</value>
+				<value column="1">突破</value>
+			</row>
+			<row>
+				<value column="0">leg_arms</value>
+				<value column="1">武具等级</value>
+			</row>
+			<row>
+				<value column="0">leg_advanced</value>
+				<value column="1">宝具解锁</value>
+			</row>
+			<row>
+				<value column="0">leg_consume</value>
+				<value column="1">消费</value>
+			</row>
+			<row>
+				<value column="0">leg_nodiamonds_recharge</value>
+				<value column="1">钻石不够，你可以充值</value>
+			</row>
+			<row>
+				<value column="0">leg_mercenaries_swap</value>
+				<value column="1">两个英雄相互交换</value>
+			</row>
+			<row>
+				<value column="0">leg_swap_attr</value>
+				<value column="1">交换的属性包括:经验值, 等级, 觉醒, 突破等等.</value>
+			</row>
+			<row>
+				<value column="0">leg_confirm_dismissal</value>
+				<value column="1">确认辞退</value>
+			</row>
+			<row>
+				<value column="0">leg_dismissal_settlement</value>
+				<value column="1">辞退结算</value>
+			</row>
+			<row>
+				<value column="0">leg_choice</value>
+				<value column="1">选择</value>
+			</row>
+			<row>
+				<value column="0">leg_notenough</value>
+				<value column="1">没有足够的</value>
+			</row>
+			<row>
+				<value column="0">leg_notobtain</value>
+				<value column="1">没有获得</value>
+			</row>	
+			<row>
+				<value column="0">legions_inbattle</value>
+				<value column="1">已经战斗</value>
+			</row>
+			<row>
+				<value column="0">leg_getrecovery</value>
+				<value column="1">回收</value>
+			</row>
+			<row>
+				<value column="0">leg_honor_fragment</value>
+				<value column="1">荣誉碎片</value>
+			</row>
+			<row>
+				<value column="0">leg_origin</value>
+				<value column="1">本源</value>
+			</row>
+			<row>
+				<value column="0">leg_selnum</value>
+				<value column="1">选择数</value>
+			</row>
+			<row>
+				<value column="0">leg_experience</value>
+				<value column="1">经验</value>
+			</row>
+			<row>
+				<value column="0">leg_obtain_source</value>
+				<value column="1">获得相应原材料</value>
+			</row>
+			<row>
+				<value column="0">leg_character_bg</value>
+				<value column="1">人物背景</value>
+			</row>
+			<row>
+				<value column="0">leg_character_explain</value>
+				<value column="1">检查对象无升级、强化、觉醒、非闪金买卖合同</value>
+			</row>
+			<row>
+				<value column="0">leg_dismissal_explain</value>
+				<value column="1">雇佣军的溶液返回企鹅所有灵魂石说，金华的消费，如果雇佣超过LV30，70%口</value>
+			</row>
+			<row>
+				<value column="0">leg_herosoul</value>
+				<value column="1">英雄灵魂</value>
+			</row>
+			<row>
+				<value column="0">leg_summon_mercenary</value>
+				<value column="1">灵魂石的消耗和碎片的荣耀可以召唤出雇佣兵</value>
+			</row>
+			<row>
+				<value column="0">leg_soulstone</value>
+				<value column="1">灵魂石</value>
+			</row>
+			<row>
+				<value column="0">leg_call</value>
+				<value column="1">呼叫</value>
+			</row>
+			<row>
+				<value column="0">leg_call_confirmation</value>
+				<value column="1">确认召唤</value>
+			</row>
+			<row>
+				<value column="0">leg_lineupbattle</value>
+				<value column="1">战斗阵容</value>
+			</row>
+			<row>
+				<value column="0">leg_herolist</value>
+				<value column="1">英雄列表</value>
+			</row>
+			<row>
+				<value column="0">leg_capacityconvers</value>
+				<value column="1">能力转换</value>
+			</row>
+			<row>
+				<value column="0">leg_fateweapon</value>
+				<value column="1">宿命武器</value>
+			</row>
+			<row>
+				<value column="0">leg_batchdelete</value>
+				<value column="1">批量解雇</value>
+			</row>
+			<row>
+				<value column="0">leg_pokedex</value>
+				<value column="1">图鉴</value>
+			</row>
+			<row>
+				<value column="0">leg_whole</value>
+				<value column="1">全部</value>
+			</row>
+			<row>
+				<value column="0">leg_qualitysort</value>
+				<value column="1">品质排序</value>
+			</row>
+			<row>
+				<value column="0">leg_levelsort</value>
+				<value column="1">等级排序</value>
+			</row>
+			<row>
+				<value column="0">leg_fightsort</value>
+				<value column="1">战力排序</value>
+			</row>
+			<row>
+				<value column="0">leg_reincarnatesort</value>
+				<value column="1">转生排序</value>
+			</row>
+			<row>
+				<value column="0">leg_breaksort</value>
+				<value column="1">突破排序</value>
+			</row>
+			<row>
+				<value column="0">leg_advancedsort</value>
+				<value column="1">进阶排序</value>
+			</row>
+			<row>
+				<value column="0">leg_sortcriteria</value>
+				<value column="1">排序标准</value>
+			</row>
+			<row>
+				<value column="0">leg_screening_conditions</value>
+				<value column="1">筛选条件</value>
+			</row>
+			<row>
+				<value column="0">leg_sortsetting</value>
+				<value column="1">排序设置</value>
+			</row>
+			<row>
+				<value column="0">leg_quality</value>
+				<value column="1">品质</value>
+			</row>
+			<row>
+				<value column="0">leg_followingquality</value>
+				<value column="1">和以下品质</value>
+			</row>
+			<row>
+				<value column="0">leg_whitequality</value>
+				<value column="1">白色品质</value>
+			</row>
+			<row>
+				<value column="0">leg_reset</value>
+				<value column="1">重置</value>
+			</row>
+			<row>
+				<value column="0">leg_addtxt</value>
+				<value column="1">添加</value>
+			</row>
+			<row>
+				<value column="0">leg_replacetxt</value>
+				<value column="1">替换</value>
+			</row>		
+			<row>
+				<value column="0">leg_detail_title</value>
+				<value column="1">阵容详情</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_crit</value>
+				<value column="1">暴击流</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_reply</value>
+				<value column="1">回复流</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_pure</value>
+				<value column="1">纯粹流</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_blind</value>
+				<value column="1">瞎**流</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_Relatedskil</value>
+				<value column="1">涉及技能</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_criteffect</value>
+				<value column="1">每1点先攻提升0.17%的暴击伤害(无视闪避)</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_replyeffect</value>
+				<value column="1">每1点闪避提升0.5%的回复值</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_pureeffect</value>
+				<value column="1">纯粹技能无视敌方闪避和防御</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_unlimited</value>
+				<value column="1">涉及技能 无限制</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firstattr</value>
+				<value column="1">先攻属性</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firstattr1</value>
+				<value column="1">先攻值高的一方可以先出手，若先攻值相等则等攻击方先出手</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firstattr2</value>
+				<value column="1">同时每点先攻值增加0.5%的暴击伤害</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating</value>
+				<value column="1">闪避等级</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating1</value>
+				<value column="1">闪避值越高，闪避的机会越大</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating2</value>
+				<value column="1">同时每闪避值增加0.5%的治疗效果</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating3</value>
+				<value column="1">被无视闪避的暴击流纯粹流克制</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_defenselevel</value>
+				<value column="1">防御等级</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_defenselevel1</value>
+				<value column="1">防御值越高，受到的伤害越少</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_defenselevel2</value>
+				<value column="1">被无视防御的纯粹流克制</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_kinglevel</value>
+				<value column="1">王者等级</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_kinglevel1</value>
+				<value column="1">每比对方多1点王者值，提高1%的攻击最终伤害</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firlegskil</value>
+				<value column="1">第一回合的技能</value>
+			</row>
+			<!--阵容详情 END-->
+		</rows>
+	</table>
+</database>

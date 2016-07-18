@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+	<name>lang</name>
+	<table>
+		<database/>
+		<name>lang</name>
+		<ddl>CREATE TABLE lang(id char(128), value char(1024))</ddl>
+		<columns>
+			<column>
+				<name>id</name>
+				<type>char</type>
+			</column>
+			<column>
+				<name>value</name>
+				<type>char</type>
+			</column>
+		</columns>
+		<rows>
+			<row>
+				<value column="0">pub_lineup</value>
+				<value column="1">陣</value>
+			</row>
+			<row>
+				<value column="0">pub_sure</value>
+				<value column="1">確定</value>
+			</row>
+			<row>
+				<value column="0">pub_confirm</value>
+				<value column="1">確認</value>
+			</row>
+			<row>
+				<value column="0">pub_cancel</value>
+				<value column="1">キャンセル</value>
+			</row>
+			<row>
+				<value column="0">pub_mercenary</value>
+				<value column="1">傭兵</value>
+			</row>
+			<row>
+				<value column="0">pub_quality1</value>
+				<value column="1">白い</value>
+			</row>
+			<row>
+				<value column="0">pub_quality2</value>
+				<value column="1">緑</value>
+			</row>
+			<row>
+				<value column="0">pub_quality3</value>
+				<value column="1">靑い</value>
+			</row>
+			<row>
+				<value column="0">pub_quality4</value>
+				<value column="1">紫</value>
+			</row>
+			<row>
+				<value column="0">pub_quality5</value>
+				<value column="1">オレンジ</value>
+			</row>
+			<row>
+				<value column="0">pub_quality6</value>
+				<value column="1">金色</value>
+			</row>
+			<row>
+				<value column="0">pub_get</value>
+				<value column="1">受け取る</value>
+			</row>
+			<row>
+				<value column="0">pub_bag_full</value>
+				<value column="1">あなたのリュックはいっぱいです</value>
+			</row>
+			<row>
+				<value column="0">pub_diamond_insufficient</value>
+				<value column="1">あなたのダイヤは足りない</value>
+			</row>
+			<row>
+				<value column="0">pub_firststrike</value>
+				<value column="1">先攻</value>
+			</row>
+			<row>
+				<value column="0">pub_defense</value>
+				<value column="1">防御</value>
+			</row>
+			<row>
+				<value column="0">pub_dodge</value>
+				<value column="1">よける</value>
+			</row>
+			<row>
+				<value column="0">pub_king</value>
+				<value column="1">王者</value>
+			</row>
+			<row>
+				<value column="0">pub_friend_text</value>
+				<value column="1">親友</value>
+			</row>
+			<row>
+				<value column="0">pub_delete_text</value>
+				<value column="1">削除</value>
+			</row>
+			<row>
+				<value column="0">pub_search_text</value>
+				<value column="1">検索</value>
+			</row>
+			<row>
+				<value column="0">pub_inform_text</value>
+				<value column="1">通知</value>
+			</row>
+			<row>
+				<value column="0">pub_sysinform_text</value>
+				<value column="1">システム通知</value>
+			</row>
+			<row>
+				<value column="0">pub_challenge_text</value>
+				<value column="1">挑戦する</value>
+			</row>
+			<row>
+				<value column="0">pub_private_chat_text</value>
+				<value column="1">私の話を</value>
+			</row>
+			<row>
+				<value column="0">pub_return_text</value>
+				<value column="1">戻る</value>
+			</row>
+			<row>
+				<value column="0">pub_cancel_text</value>
+				<value column="1">キャンセル</value>
+			</row>
+			<row>
+				<value column="0">tool10000</value>
+				<value column="1">40088</value>
+			</row>
+			<row>
+				<value column="0">str10001</value>
+				<value column="1">クリックすると</value>
+			</row>
+			<row>
+				<value column="0">login_imput_ac</value>
+				<value column="1">入力アカウント</value>
+			</row>
+			<row>
+				<value column="0">login_imput_pa</value>
+				<value column="1">入力パスワード入力</value>
+			</row>
+			<row>
+				<value column="0">login_text1</value>
+				<value column="1">内区内</value>
+			</row>
+			<row>
+				<value column="0">login_maintain</value>
+				<value column="1">メンテナンス</value>
+			</row>
+			<row>
+				<value column="0">str10006</value>
+				<value column="1">良好</value>
+			</row>
+			<row>
+				<value column="0">str10007</value>
+				<value column="1">混雑</value>
+			</row>
+			<row>
+				<value column="0">str10008</value>
+				<value column="1">満員</value>
+			</row>
+			<row>
+				<value column="0">login_recommend</value>
+				<value column="1">推薦</value>
+			</row>
+			<row>
+				<value column="0">login_password_text1</value>
+				<value column="1">パスワードが不一緻</value>
+			</row>
+			<row>
+				<value column="0">login_password_text2</value>
+				<value column="1">アカウントまたはパスワードが6位に足りない！！！</value>
+			</row>
+			<row>
+				<value column="0">login_password_text3</value>
+				<value column="1">アカウントのパスワードの誤り！！！</value>
+			</row>
+			<row>
+				<value column="0">str10013</value>
+				<value column="1">登録失敗！！！</value>
+			</row>
+			<row>
+				<value column="0">str10014</value>
+				<value column="1">アカウントまたはパスワードの長さ20ビットを超えて！！！</value>
+			</row>
+			<row>
+				<value column="0">str10015</value>
+				<value column="1">アカウントまたはパスワードエラー！！！</value>
+			</row>
+			<row>
+				<value column="0">str10016</value>
+				<value column="1">アカウントが存在する！！！</value>
+			</row>
+			<row>
+				<value column="0">login_password_text4</value>
+				<value column="1">サーバーメンテナンス中</value>
+			</row>
+			<row>
+				<value column="0">login_sever_laster</value>
+				<value column="1">前回ログインしたサーバー</value>
+			</row>
+			<row>
+				<value column="0">login_sever_sel</value>
+				<value column="1">サーバー%s--%s</value>
+			</row>
+			<row>
+				<value column="0">login_sever_all</value>
+				<value column="1">すべてのサーバー</value>
+			</row>
+			<row>
+				<value column="0">login_sever_sel2</value>
+				<value column="1">%s--%s区</value>
+			</row>
+			<row>
+				<value column="0">login_timeout</value>
+				<value column="1">タイムアウトを待つ</value>
+			</row>
+			<row>
+				<value column="0">login_confirm</value>
+				<value column="1">確定</value>
+			</row>
+			<row>
+				<value column="0">login_server_off</value>
+				<value column="1">サーバーと接続して接続する…</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit</value>
+				<value column="1">長さを%d文字制限</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit2</value>
+				<value column="1">名前は漢字とアルファベットと数字を使うことしかできません</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit3</value>
+				<value column="1">屏蔽字を含んで、その名称を使うことができません</value>
+			</row>
+			<row>
+				<value column="0">login_server_limit4</value>
+				<value column="1">名前を入力して下さい</value>
+			</row>
+			<row>
+				<value column="0">login_exit</value>
+				<value column="1">名目</value>
+			</row>
+			<row>
+				<value column="0">login_account</value>
+				<value column="1">口座</value>
+			</row>
+			<row>
+				<value column="0">login_password</value>
+				<value column="1">パスワード</value>
+			</row>
+			<row>
+				<value column="0">login_register</value>
+				<value column="1">登録</value>
+			</row>
+			<row>
+				<value column="0">login_register_account</value>
+				<value column="1">登録口座番号</value>
+			</row>
+			<row>
+				<value column="0">login_account2</value>
+				<value column="1">口座：</value>
+			</row>
+			<row>
+				<value column="0">login_password2</value>
+				<value column="1">暗号：</value>
+			</row>
+			<row>
+				<value column="0">login_password3</value>
+				<value column="1">パスワードを確認する：</value>
+			</row>
+			<row>
+				<value column="0">login_recommend</value>
+				<value column="1">推薦</value>
+			</row>
+			<row>
+				<value column="0">login_server_all</value>
+				<value column="1">すべてのサーバー</value>
+			</row>
+			<row>
+				<value column="0">login_server_new</value>
+				<value column="1">新しいサーバー</value>
+			</row>
+			<row>
+				<value column="0">login_server_at</value>
+				<value column="1">ログインサーバー</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_sel</value>
+				<value column="1">地図選択</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_enter</value>
+				<value column="1">次のエリアを開いて</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_team</value>
+				<value column="1">現在のラインナップ</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_need</value>
+				<value column="1">新エリアの必要を満たす</value>
+			</row>
+			<row>
+				<value column="0">adventure_bag</value>
+				<value column="1">リュックサック</value>
+			</row>
+			<row>
+				<value column="0">adventure_stre</value>
+				<value column="1">強化する</value>
+			</row>
+			<row>
+				<value column="0">adventure_talkabout</value>
+				<value column="1">討論</value>
+			</row>
+			<row>
+				<value column="0">adventure_drop</value>
+				<value column="1">落ちる</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_btn</value>
+				<value column="1">地図</value>
+			</row>
+			<row>
+				<value column="0">str40010</value>
+				<value column="1">簡単に</value>
+			</row>
+			<row>
+				<value column="0">str40011</value>
+				<value column="1">普通</value>
+			</row>
+			<row>
+				<value column="0">str40012</value>
+				<value column="1">困難</value>
+			</row>
+			<row>
+				<value column="0">adventure_expro_info</value>
+				<value column="1">プレビューを奨励する</value>
+			</row>
+			<row>
+				<value column="0">adventure_map_point</value>
+				<value column="1">チェックポイント</value>
+			</row>
+			<row>
+				<value column="0">adventure_world_chat</value>
+				<value column="1">世界チャット</value>
+			</row>
+			<row>
+				<value column="0">adventure_union_chat</value>
+				<value column="1">労働組合のチャット</value>
+			</row>
+			<row>
+				<value column="0">adventure_private_chat</value>
+				<value column="1">プライベートチャット</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info</value>
+				<value column="1">奨励情報</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info1</value>
+				<value column="1">1級</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info2</value>
+				<value column="1">2級</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info3</value>
+				<value column="1">三級</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info4</value>
+				<value column="1">四級の</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_info5</value>
+				<value column="1">ボスのレベル</value>
+			</row>
+			<row>
+				<value column="0">adventure_treasrue_memo</value>
+				<value column="1">難易度は高く、奨励の確率が大きい</value>
+			</row>
+			<row>
+				<value column="0">adventure_stage_talk</value>
+				<value column="1">章節攻略</value>
+			</row>
+			<row>
+				<value column="0">adventure_stage_addtalk</value>
+				<value column="1">攻略を書く</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprlo_re</value>
+				<value column="1">探索結果</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprlo_text</value>
+				<value column="1">数量/上限</value>
+			</row>
+			<row>
+				<value column="0">adventure_lock</value>
+				<value column="1">ステージにはアンロックがない</value>
+			</row>
+			<row>
+				<value column="0">adventure_battle</value>
+				<value column="1">戦い</value>
+			</row>
+			<row>
+				<value column="0">adventure_find</value>
+				<value column="1">大陸が発見された</value>
+			</row>
+			<row>
+				<value column="0">adventure_player_info</value>
+				<value column="1">ユーザー情報</value>
+			</row>
+			<row>
+				<value column="0">adventure_player_name</value>
+				<value column="1">名称：</value>
+			</row>
+			<row>
+				<value column="0">str40045</value>
+				<value column="1">公の会：</value>
+			</row>
+			<row>
+				<value column="0">adventure_pull_back</value>
+				<value column="1">引き黒</value>
+			</row>
+			<row>
+				<value column="0">adventure_friend_add</value>
+				<value column="1">足を付ける</value>
+			</row>
+			<row>
+				<value column="0">adventure_friend_chat</value>
+				<value column="1">チャット</value>
+			</row>
+			<row>
+				<value column="0">adventure_friend_nil</value>
+				<value column="1">無</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_private</value>
+				<value column="1">プライベートチャット</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_input</value>
+				<value column="1">入力内容を入力して下さい</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_no</value>
+				<value column="1">人がチャットする人がいない</value>
+			</row>
+			<row>
+				<value column="0">adventure_chat_add_succeed</value>
+				<value column="1">親友の成功を追加する</value>
+			</row>
+			<row>
+				<value column="0">setting_lang</value>
+				<value column="1">言語：</value>
+			</row>
+			<row>
+				<value column="0">setting_black_list</value>
+				<value column="1">ブラックリスト</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data1</value>
+				<value column="1">経験書</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data2</value>
+				<value column="1">未知の巾着</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data3</value>
+				<value column="1">ランダムアイテム</value>
+			</row>
+			<row>
+				<value column="0">adventure_reward_data4</value>
+				<value column="1">英雄福袋</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprol_diamond</value>
+				<value column="1">ダイヤモンド不足</value>
+			</row>
+			<row>
+				<value column="0">adventure_exprol_max</value>
+				<value column="1">最大の欄に到達する</value>
+			</row>
+			<row>
+				<value column="0">adventure_get_exp</value>
+				<value column="1">経験を得る：</value>
+			</row>
+			<row>
+				<value column="0">adventure_get_gold</value>
+				<value column="1">金貨を得る：</value>
+			</row>
+			<row>
+				<value column="0">adventure_offline_time</value>
+				<value column="1">電話を切る時間</value>
+			</row>
+			<row>
+				<value column="0">adventure_offline_sub</value>
+				<value column="1">切り切り決済</value>
+			</row>
+			<row>
+				<value column="0">adventure_goto</value>
+				<value column="1">向かう</value>
+			</row>
+			<row>
+				<value column="0">adventure_consume</value>
+				<value column="1">かかる</value>
+			</row>
+			<row>
+				<value column="0">adventure_battle_ready</value>
+				<value column="1">戦闘準備</value>
+			</row>
+			<row>
+				<value column="0">hall_forum</value>
+				<value column="1">フォーラム</value>
+			</row>
+			<row>
+				<value column="0">hall_bag</value>
+				<value column="1">福袋</value>
+			</row>
+			<row>
+				<value column="0">hall_friend</value>
+				<value column="1">友達</value>
+			</row>
+			<row>
+				<value column="0">hall_set</value>
+				<value column="1">設置</value>
+			</row>
+			<row>
+				<value column="0">hall_shop</value>
+				<value column="1">商店</value>
+			</row>
+			<row>
+				<value column="0">hall_darly</value>
+				<value column="1">毎日</value>
+			</row>
+			<row>
+				<value column="0">hall_activity</value>
+				<value column="1">活動</value>
+			</row>
+			<row>
+				<value column="0">hall_honor</value>
+				<value column="1">名誉</value>
+			</row>
+			<row>
+				<value column="0">hall_city</value>
+				<value column="1">市場</value>
+			</row>
+			<row>
+				<value column="0">hall_notice</value>
+				<value column="1">公告</value>
+			</row>
+			<row>
+				<value column="0">hall_card</value>
+				<value column="1">月卡</value>
+			</row>
+			<row>
+				<value column="0">hall_mail</value>
+				<value column="1">メール</value>
+			</row>
+			<row>
+				<value column="0">hall_home</value>
+				<value column="1">ホームページ</value>
+			</row>
+			<row>
+				<value column="0">hall_adventure</value>
+				<value column="1">冒険</value>
+			</row>
+			<row>
+				<value column="0">hall_mine</value>
+				<value column="1">採掘する</value>
+			</row>
+			<row>
+				<value column="0">hall_pvp</value>
+				<value column="1">pvp</value>
+			</row>
+			<row>
+				<value column="0">hall_call</value>
+				<value column="1">召喚</value>
+			</row>
+			<row>
+				<value column="0">hall_hero</value>
+				<value column="1">英雄</value>
+			</row>
+			<row>
+				<value column="0">setting_china</value>
+				<value column="1">中国語簡体字</value>
+			</row>
+			<row>
+				<value column="0">setting_english</value>
+				<value column="1">英語</value>
+			</row>
+			<row>
+				<value column="0">setting_jp</value>
+				<value column="1">日本語</value>
+			</row>
+			<row>
+				<value column="0">str190001</value>
+				<value column="1">最初の衝</value>
+			</row>
+			<row>
+				<value column="0">str190002</value>
+				<value column="1">紫の英雄を贈る</value>
+			</row>
+			<row>
+				<value column="0">str190003</value>
+				<value column="1">パッケージ内容</value>
+			</row>
+			<row>
+				<value column="0">str190004</value>
+				<value column="1">首衝に行ってお得をして奨励する</value>
+			</row>
+			<row>
+				<value column="0">str190005</value>
+				<value column="1">すべてのアカウントは1回限ります</value>
+			</row>
+			<row>
+				<value column="0">str190006</value>
+				<value column="1">首の衝</value>
+			</row>
+			<row>
+				<value column="0">str190007</value>
+				<value column="1">首の衝福袋</value>
+			</row>
+			<row>
+				<value column="0">achititle</value>
+				<value column="1">成就</value>
+			</row>
+			<row>
+				<value column="0">achiget</value>
+				<value column="1">受け取る</value>
+			</row>
+			<row>
+				<value column="0">achitext3</value>
+				<value column="1">現在進度：</value>
+			</row>
+			<row>
+				<value column="0">achitext4</value>
+				<value column="1">1×2</value>
+			</row>
+			<row>
+				<value column="0">bag_prop</value>
+				<value column="1">道具とリュックサック</value>
+			</row>
+			<row>
+				<value column="0">bag_res</value>
+				<value column="1">資源リュックサック</value>
+			</row>
+			<row>
+				<value column="0">bag_mineprop</value>
+				<value column="1">鉱夫道具</value>
+			</row>
+			<row>
+				<value column="0">bagtext1</value>
+				<value column="1">鉱つるはし耐久度</value>
+			</row>
+			<row>
+				<value column="0">bagtext2</value>
+				<value column="1">1×2</value>
+			</row>
+			<row>
+				<value column="0">bagtoplimit</value>
+				<value column="1">上限</value>
+			</row>
+			<row>
+				<value column="0">baguse</value>
+				<value column="1">使用</value>
+			</row>
+			<row>
+				<value column="0">bagtext3</value>
+				<value column="1">1個で開く</value>
+			</row>
+			<row>
+				<value column="0">bagtext4</value>
+				<value column="1">5個咲き</value>
+			</row>
+			<row>
+				<value column="0">bag_buy</value>
+				<value column="1">購入</value>
+			</row>
+			<row>
+				<value column="0">bagtext5</value>
+				<value column="1">リュックサック格子</value>
+			</row>
+			<row>
+				<value column="0">bagtext6</value>
+				<value column="1">1 }ダイヤモンドを開けて{ 2 }リュック格子を開ける</value>
+			</row>
+			<row>
+				<value column="0">bagtext7</value>
+				<value column="1">ダイヤモンド不足</value>
+			</row>
+			<row>
+				<value column="0">bag_miner</value>
+				<value column="1">鉱石</value>
+			</row>
+			<row>
+				<value column="0">bagtext8</value>
+				<value column="1">品不足</value>
+			</row>
+			<row>
+				<value column="0">bagcal</value>
+				<value column="1">キャンセル</value>
+			</row>
+			<row>
+				<value column="0">bagcom</value>
+				<value column="1">確定</value>
+			</row>
+			<row>
+				<value column="0">bagminetext1</value>
+				<value column="1">主要資源</value>
+			</row>
+			<row>
+				<value column="0">bagminetext2</value>
+				<value column="1">主要資源</value>
+			</row>
+			<row>
+				<value column="0">bagminetext3</value>
+				<value column="1">主要資源</value>
+			</row>
+			<row>
+				<value column="0">bagminetext4</value>
+				<value column="1">主要資源</value>
+			</row>
+			<row>
+				<value column="0">bagmoneytext1</value>
+				<value column="1">ダイヤモンド消耗</value>
+			</row>
+			<row>
+				<value column="0">bagmoneytext2</value>
+				<value column="1">消費</value>
+			</row>
+			<row>
+				<value column="0">minename</value>
+				<value column="1">主要な鉱石</value>
+			</row>
+			<row>
+				<value column="0">minetext1</value>
+				<value column="1">1×2</value>
+			</row>
+			<row>
+				<value column="0">mineLv</value>
+				<value column="1">lv . 1</value>
+			</row>
+			<row>
+				<value column="0">minebomnum</value>
+				<value column="1">x {いち}</value>
+			</row>
+			<row>
+				<value column="0">mineview</value>
+				<value column="1">増幅</value>
+			</row>
+			<row>
+				<value column="0">minecoord</value>
+				<value column="1">x：y 1 2</value>
+			</row>
+			<row>
+				<value column="0">minetest7</value>
+				<value column="1">採鉱を開いている</value>
+			</row>
+			<row>
+				<value column="0">minebox</value>
+				<value column="1">宝箱</value>
+			</row>
+			<row>
+				<value column="0">mineboss</value>
+				<value column="1">魔像</value>
+			</row>
+			<row>
+				<value column="0">minetest10</value>
+				<value column="1">隣の空き地はない</value>
+			</row>
+			<row>
+				<value column="0">minetest11</value>
+				<value column="1">暇がない鉱つるはし</value>
+			</row>
+			<row>
+				<value column="0">minetest12</value>
+				<value column="1">鉱場マーク</value>
+			</row>
+			<row>
+				<value column="0">minetest13</value>
+				<value column="1">选ばれた鉱石表示は地図に表示されます.</value>
+			</row>
+			<row>
+				<value column="0">mineenlarg</value>
+				<value column="1">増幅</value>
+			</row>
+			<row>
+				<value column="0">minesign</value>
+				<value column="1">マーク</value>
+			</row>
+			<row>
+				<value column="0">minetest16</value>
+				<value column="1">鉱つるはし不足</value>
+			</row>
+			<row>
+				<value column="0">minetest17</value>
+				<value column="1">まだ満足していない</value>
+			</row>
+			<row>
+				<value column="0">minereplace</value>
+				<value column="1">鉱物交換</value>
+			</row>
+			<row>
+				<value column="0">minetime</value>
+				<value column="1">00:05:26</value>
+			</row>
+			<row>
+				<value column="0">minetxet5</value>
+				<value column="1">鉱夫がアップグレードする</value>
+			</row>
+			<row>
+				<value column="0">minetxet6</value>
+				<value column="1">今は{ 1 }</value>
+			</row>
+			<row>
+				<value column="0">workshoptext1</value>
+				<value column="1">工房区間</value>
+			</row>
+			<row>
+				<value column="0">workshoptime</value>
+				<value column="1">1:60:60</value>
+			</row>
+			<row>
+				<value column="0">workshopstonglv</value>
+				<value column="1">強化レベル</value>
+			</row>
+			<row>
+				<value column="0">workshoptext4</value>
+				<value column="1">あなたは鉱石の副本から{ 1 } { 1 } {２}</value>
+			</row>
+			<row>
+				<value column="0">workshoptext5</value>
+				<value column="1">時間を採掘する</value>
+			</row>
+			<row>
+				<value column="0">workshoptext6</value>
+				<value column="1">工事消費</value>
+			</row>
+			<row>
+				<value column="0">workshoptext7</value>
+				<value column="1">60 m</value>
+			</row>
+			<row>
+				<value column="0">workshoptext8</value>
+				<value column="1">メートル</value>
+			</row>
+			<row>
+				<value column="0">workshoptext9</value>
+				<value column="1">2 . 4</value>
+			</row>
+			<row>
+				<value column="0">workshoptext10</value>
+				<value column="1">4 . 8</value>
+			</row>
+			<row>
+				<value column="0">workshopfinish</value>
+				<value column="1">終瞭</value>
+			</row>
+			<row>
+				<value column="0">workshopreward</value>
+				<value column="1">奨励</value>
+			</row>
+			<row>
+				<value column="0">workshoptext17</value>
+				<value column="1">ダイヤモンド消耗</value>
+			</row>
+			<row>
+				<value column="0">workshoptext18</value>
+				<value column="1">消費</value>
+			</row>
+			<row>
+				<value column="0">workshoptext19</value>
+				<value column="1">{ 1 }取得して{ 1 }獲得して</value>
+			</row>
+			<row>
+				<value column="0">str30001</value>
+				<value column="1">通常攻撃</value>
+			</row>
+			<row>
+				<value column="0">str30002</value>
+				<value column="1">よける</value>
+			</row>
+			<row>
+				<value column="0">str10030</value>
+				<value column="1">teanslate</value>
+			</row>
+			<row>
+				<value column="0">str10031</value>
+				<value column="1">音楽（関ジャニ）</value>
+			</row>
+			<row>
+				<value column="0">str10032</value>
+				<value column="1">声（開）</value>
+			</row>
+			<row>
+				<value column="0">str10033</value>
+				<value column="1">音楽（開）</value>
+			</row>
+			<row>
+				<value column="0">str10034</value>
+				<value column="1">声（関）</value>
+			</row>
+			<row>
+				<value column="0">str150001</value>
+				<value column="1">市場</value>
+			</row>
+			<row>
+				<value column="0">str150002</value>
+				<value column="1">闇市</value>
+			</row>
+			<row>
+				<value column="0">str150003</value>
+				<value column="1">謎の店</value>
+			</row>
+			<row>
+				<value column="0">str150004</value>
+				<value column="1">受信</value>
+			</row>
+			<row>
+				<value column="0">str150005</value>
+				<value column="1">すべての注文は、追加のインセンティブとすることができます</value>
+			</row>
+			<row>
+				<value column="0">str150006</value>
+				<value column="1">完成</value>
+			</row>
+			<row>
+				<value column="0">str150007</value>
+				<value column="1">秩序</value>
+			</row>
+			<row>
+				<value column="0">str150008</value>
+				<value column="1">注文需要</value>
+			</row>
+			<row>
+				<value column="0">str150009</value>
+				<value column="1">奨励</value>
+			</row>
+			<row>
+				<value column="0">str150100</value>
+				<value column="1">強化アイテムを強化する</value>
+			</row>
+			<row>
+				<value column="0">str150101</value>
+				<value column="1">画面をクリックして</value>
+			</row>
+			<row>
+				<value column="0">pvp_title</value>
+				<value column="1">競技</value>
+			</row>
+			<row>
+				<value column="0">pvp_rank</value>
+				<value column="1">ランキング</value>
+			</row>
+			<row>
+				<value column="0">pvp_reset_time</value>
+				<value column="1">リセットタイム</value>
+			</row>
+			<row>
+				<value column="0">call_title</value>
+				<value column="1">傭兵召喚</value>
+			</row>
+			<row>
+				<value column="0">call_temple_title</value>
+				<value column="1">天空の神殿</value>
+			</row>
+			<row>
+				<value column="0">call_ten_times</value>
+				<value column="1">十度の召喚</value>
+			</row>
+			<row>
+				<value column="0">call_quality_1</value>
+				<value column="1">白は</value>
+			</row>
+			<row>
+				<value column="0">call_quality_2</value>
+				<value column="1">緑は</value>
+			</row>
+			<row>
+				<value column="0">call_quality_3</value>
+				<value column="1">靑は</value>
+			</row>
+			<row>
+				<value column="0">call_quality_4</value>
+				<value column="1">紫は</value>
+			</row>
+			<row>
+				<value column="0">call_quality_5</value>
+				<value column="1">橙は</value>
+			</row>
+			<row>
+				<value column="0">call_quality_6</value>
+				<value column="1">金は</value>
+			</row>
+			<row>
+				<value column="0">call_diamond_tip1</value>
+				<value column="1">十度召喚には一個</value>
+			</row>
+			<row>
+				<value column="0">call_diamond_tip2</value>
+				<value column="1">紫の英雄</value>
+			</row>
+			<row>
+				<value column="0">call_friendship_tip</value>
+				<value column="1">親しい友人を通じて友情を得ることができる</value>
+			</row>
+			<row>
+				<value column="0">call_gold_tip</value>
+				<value column="1">大判の消費が増加するたびに、金の消費が増加するたびに</value>
+			</row>
+			<row>
+				<value column="0">arena_streak</value>
+				<value column="1">%d連勝</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_list</value>
+				<value column="1">更新リスト</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_title</value>
+				<value column="1">ダイヤの更新</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_arena</value>
+				<value column="1">ダイヤ更新アリーナ</value>
+			</row>
+			<row>
+				<value column="0">arena_refresh_time_left</value>
+				<value column="1">余剰更新時間：</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_title</value>
+				<value column="1">世界ランキング</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_cd</value>
+				<value column="1">チャレンジ冷却</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_exchange</value>
+				<value column="1">両替する</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_reward_rule</value>
+				<value column="1">奨励規則</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_daily_reward</value>
+				<value column="1">毎日奨励</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_rank1</value>
+				<value column="1">d号</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_rank2</value>
+				<value column="1">そのd - d</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_rank_rule</value>
+				<value column="1">ランク賽規則</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_tip1</value>
+				<value column="1">毎日22：00、システムはあなたの現在の順位によって、現在順位は、親友のポストに送信することを奨励します</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_tip2</value>
+				<value column="1">ヒント：誰かに挑戦する時、あなたのチームは、勝利時の陣容に挑戦するのです</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_tip3</value>
+				<value column="1">挑戦は、リーグ戦に勝利を通じて自分のランキング、22時00のランキングはあなたに相応の奨励を獲得します。</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_cd_error</value>
+				<value column="1">計時に挑戦して、他のプレイヤーにも挑戦できない</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_change</value>
+				<value column="1">両替</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_change_error</value>
+				<value column="1">内不足、両替できない</value>
+			</row>
+			<row>
+				<value column="0">rankedmatch_open_error</value>
+				<value column="1">クリア後内を開く</value>
+			</row>
+			<row>
+				<value column="0">copy_date0</value>
+				<value column="1">日曜日</value>
+			</row>
+			<row>
+				<value column="0">copy_date1</value>
+				<value column="1">月曜日</value>
+			</row>
+			<row>
+				<value column="0">copy_date2</value>
+				<value column="1">火曜日</value>
+			</row>
+			<row>
+				<value column="0">copy_date3</value>
+				<value column="1">水曜日</value>
+			</row>
+			<row>
+				<value column="0">copy_date4</value>
+				<value column="1">木曜日</value>
+			</row>
+			<row>
+				<value column="0">copy_date5</value>
+				<value column="1">金曜日</value>
+			</row>
+			<row>
+				<value column="0">copy_date6</value>
+				<value column="1">土曜日</value>
+			</row>
+			<row>
+				<value column="0">copy_opening_time</value>
+				<value column="1">開放時間</value>
+			</row>
+			<row>
+				<value column="0">copy_challenge_times</value>
+				<value column="1">挑戦回数：</value>
+			</row>
+			<row>
+				<value column="0">copy_consume</value>
+				<value column="1">消耗</value>
+			</row>
+			<row>
+				<value column="0">copy_enemy_info</value>
+				<value column="1">敵方情報</value>
+			</row>
+			<row>
+				<value column="0">copy_level_info</value>
+				<value column="1">ステージ記述</value>
+			</row>
+			<row>
+				<value column="0">copy_loot_list</value>
+				<value column="1">落下リスト</value>
+			</row>
+			<row>
+				<value column="0">copy_start_battle</value>
+				<value column="1">戦いを開始する</value>
+			</row>
+			<row>
+				<value column="0">copy_enemy_attr</value>
+				<value column="1">敵の戦力と属性が</value>
+			</row>
+			<row>
+				<value column="0">copy_enemy_skill</value>
+				<value column="1">敵の技能%d：内</value>
+			</row>
+			<row>
+				<value column="0">copy_buy_count_short</value>
+				<value column="1">購入回数不足</value>
+			</row>
+			<row>
+				<value column="0">copy_buy_count</value>
+				<value column="1">挑戦回数の購入回数に挑戦：</value>
+			</row>
+			<row>
+				<value column="0">copy_buy_cost</value>
+				<value column="1">購入を購入する：</value>
+			</row>
+			<row>
+				<value column="0">copy_can_buy_count</value>
+				<value column="1">挑戦回数を購入する</value>
+			</row>
+			<row>
+				<value column="0">copy_cost</value>
+				<value column="1">費用がかかる：</value>
+			</row>
+			<row>
+				<value column="0">copy_opening_date</value>
+				<value column="1">内内で開放</value>
+			</row>
+			<row>
+				<value column="0">Err1104</value>
+				<value column="1">相手はあなたの親友で！</value>
+			</row>
+			<row>
+				<value column="0">Err1105</value>
+				<value column="1">成功送信申請情報！</value>
+			</row>
+			<row>
+				<value column="0">Err1106</value>
+				<value column="1">あなたはすでにこのプレーヤーに良い友達の申請を発送して、根気よく待って下さい！</value>
+			</row>
+			<row>
+				<value column="0">Err1107</value>
+				<value column="1">君の親友を断って申請する！</value>
+			</row>
+			<row>
+				<value column="0">Err1101</value>
+				<value column="1">親友として追加できない！</value>
+			</row>
+			<row>
+				<value column="0">Err1102</value>
+				<value column="1">相手はあなたの親友ではない！</value>
+			</row>
+			<row>
+				<value column="0">Err1103</value>
+				<value column="1">相手は申請を許されない</value>
+			</row>
+			<row>
+				<value column="0">Err1108</value>
+				<value column="1">あなたの親しい友人に達し内の最大数！</value>
+			</row>
+			<row>
+				<value column="0">Err1109</value>
+				<value column="1">相手の親友は最大数に達している！</value>
+			</row>
+			<row>
+				<value column="0">Sys4310</value>
+				<value column="1">ランキング奨励</value>
+			</row>
+			<row>
+				<value column="0">Err1005</value>
+				<value column="1">名称は合法ではない！</value>
+			</row>
+			<row>
+				<value column="0">Err1004</value>
+				<value column="1">アカウントが存在する</value>
+			</row>
+			<row>
+				<value column="0">Err1007</value>
+				<value column="1">アカウントまたはパスワードが正しくありません</value>
+			</row>
+			<row>
+				<value column="0">Err1006</value>
+				<value column="1">名前はすでに存在している！</value>
+			</row>
+			<row>
+				<value column="0">Err1001</value>
+				<value column="1">キャラクターの重複</value>
+			</row>
+			<row>
+				<value column="0">Err1003</value>
+				<value column="1">名称は空っぽにならない</value>
+			</row>
+			<row>
+				<value column="0">Err1002</value>
+				<value column="1">キャラクターが存在している</value>
+			</row>
+			<row>
+				<value column="0">Err4401</value>
+				<value column="1">打った</value>
+			</row>
+			<row>
+				<value column="0">Err4305</value>
+				<value column="1">チャレンジ中、チャレンジできません</value>
+			</row>
+			<row>
+				<value column="0">Err4304</value>
+				<value column="1">あなたの挑戦は時間には来ませ</value>
+			</row>
+			<row>
+				<value column="0">Err4307</value>
+				<value column="1">挑戦回数不足に挑戦</value>
+			</row>
+			<row>
+				<value column="0">Err4306</value>
+				<value column="1">同プレイヤーは挑戦され、挑戦できない</value>
+			</row>
+			<row>
+				<value column="0">Err4301</value>
+				<value column="1">この機能は%s_%s開放</value>
+			</row>
+			<row>
+				<value column="0">Err4303</value>
+				<value column="1">自分には挑戦できない</value>
+			</row>
+			<row>
+				<value column="0">Err4302</value>
+				<value column="1">同ランキングでは相手が変わって、相手を更新します</value>
+			</row>
+			<row>
+				<value column="0">Err4309</value>
+				<value column="1">あなたの順位は変えて、あなたのために相手を更新します</value>
+			</row>
+			<row>
+				<value column="0">Err4308</value>
+				<value column="1">自分より順位に挑戦できない</value>
+			</row>
+			<row>
+				<value column="0">Mail1201</value>
+				<value column="1">アップグレード奨励</value>
+			</row>
+			<row>
+				<value column="0">Mail1202</value>
+				<value column="1">*じゅうよんおめでとう達成* 09%s *じゅうよん級、どうぞこれらの奨励だろう！</value>
+			</row>
+			<row>
+				<value column="0">Err3902</value>
+				<value column="1">世界チャンネル発言の間隔内秒後にしてください、また。</value>
+			</row>
+			<row>
+				<value column="0">Err3903</value>
+				<value column="1">そのプレイヤーは、確認して下さい後リトライ。</value>
+			</row>
+			<row>
+				<value column="0">Err3901</value>
+				<value column="1">あなたはもう言葉を禁じられる！！</value>
+			</row>
+			<row>
+				<value column="0">Err3904</value>
+				<value column="1">このプレイヤーはオフライン状態にある</value>
+			</row>
+			<row>
+				<value column="0">Err3905</value>
+				<value column="1">君のブラックリストには</value>
+			</row>
+			<row>
+				<value column="0">Err1088</value>
+				<value column="1">キャラクターの重複</value>
+			</row>
+			<row>
+				<value column="0">gift_page_title_left</value>
+				<value column="1">システム福袋</value>
+			</row>
+			<row>
+				<value column="0">gift_page_title_right</value>
+				<value column="1">親友の福袋</value>
+			</row>
+			<row>
+				<value column="0">gift_onkey_btn_text</value>
+				<value column="1">ワンタッチで受け取る</value>
+			</row>
+			<row>
+				<value column="0">gift_bottom_text</value>
+				<value column="1">すべての贈り物が保存ななしち日</value>
+			</row>
+			<row>
+				<value column="0">gift_des_text</value>
+				<value column="1">本日も友情を受け取ることができて：</value>
+			</row>
+			<row>
+				<value column="0">gift_hint_text</value>
+				<value column="1">できない贈り物を</value>
+			</row>
+			<row>
+				<value column="0">daily_title1</value>
+				<value column="1">毎日簽到</value>
+			</row>
+			<row>
+				<value column="0">daily_title2</value>
+				<value column="1">毎日祈る</value>
+			</row>
+			<row>
+				<value column="0">daily_title3</value>
+				<value column="1">毎日の錬金術</value>
+			</row>
+			<row>
+				<value column="0">daily_more_btn</value>
+				<value column="1">もっと奨励する</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_btn</value>
+				<value column="1">出席を取る</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_time_text</value>
+				<value column="1">累計簽到%d度を得ることができる</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_des_text</value>
+				<value column="1">死秀忠福祉！累計簽到は一定回数に達しても疲れを得ることができます！</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_over_text</value>
+				<value column="1">本日はもう簽到している</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text1</value>
+				<value column="1">首のくじ</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text2</value>
+				<value column="1">回くじ</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text3</value>
+				<value column="1">三くじ</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_title_text1</value>
+				<value column="1">毎日0-12：00、12-18：00、18-24：00、すべての機会を奨励。</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_title_text2</value>
+				<value column="1">毎日1度の祈りの術、当面の祈りのレベルで大量の経験と付属の栄誉の破片を獲得して、また祈りますレベル。</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_title_text3</value>
+				<value column="1">1度は1度の錬金術を使うことができて、現在の錬金術の等級によって大量の金貨の金を獲得して、付属の栄誉の破片を獲得して、まだ煉のレベルを高めることができます。</value>
+			</row>
+			<row>
+				<value column="0">daily_sign_over_btn</value>
+				<value column="1">今日はもう使用している</value>
+			</row>
+			<row>
+				<value column="0">daily_page2_item_text1</value>
+				<value column="1">普通の祈り（錬金術レベル+ %d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page2_item_text2</value>
+				<value column="1">中級祈り（錬金術レベル+ %d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page2_item_text3</value>
+				<value column="1">聖なる祈り（錬金術レベル+ %d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page3_item_text1</value>
+				<value column="1">普通の錬金（錬金術レベル+ %d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page3_item_text2</value>
+				<value column="1">中級錬金（錬金術レベル+ %d）</value>
+			</row>
+			<row>
+				<value column="0">daily_page3_item_text3</value>
+				<value column="1">神聖な錬金術（錬金術レベル+ %d）</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_text</value>
+				<value column="1">奨励する：</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_title1</value>
+				<value column="1">一週間に簽到して奨励する</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_title2</value>
+				<value column="1">累計簽到奨励を奨励する</value>
+			</row>
+			<row>
+				<value column="0">daily_gift_time_text</value>
+				<value column="1">%d月%d日</value>
+			</row>
+			<row>
+				<value column="0">daily_not_select_text</value>
+				<value column="1">奨励項目を選択していない</value>
+			</row>
+			<row>
+				<value column="0">friend_search_btn</value>
+				<value column="1">親友を探して</value>
+			</row>
+			<row>
+				<value column="0">friend_search_hint_text</value>
+				<value column="1">検索の親友IDを入力してください</value>
+			</row>
+			<row>
+				<value column="0">friend_search_des_text</value>
+				<value column="1">一日に20人の友人の申請をすることしかできません</value>
+			</row>
+			<row>
+				<value column="0">friend_player_msg_title</value>
+				<value column="1">ユーザー情報</value>
+			</row>
+			<row>
+				<value column="0">friend_refuse_text</value>
+				<value column="1">親友の申請を拒否する</value>
+			</row>
+			<row>
+				<value column="0">friend_add_friend_btn</value>
+				<value column="1">親友をプラスにプラスして</value>
+			</row>
+			<row>
+				<value column="0">friend_delete_friend_text</value>
+				<value column="1">親友を削除する</value>
+			</row>
+			<row>
+				<value column="0">friend_delete_des_text</value>
+				<value column="1">この友人の削除を確認しますか？</value>
+			</row>
+			<row>
+				<value column="0">friend_name_text</value>
+				<value column="1">名前：</value>
+			</row>
+			<row>
+				<value column="0">friend_title_des_text</value>
+				<value column="1">今日も友情を得ることができます：</value>
+			</row>
+			<row>
+				<value column="0">friend_other_linkup</value>
+				<value column="1">相手陣</value>
+			</row>
+			<row>
+				<value column="0">friend_hour_ago</value>
+				<value column="1">%d時間</value>
+			</row>
+			<row>
+				<value column="0">friend_hours_after</value>
+				<value column="1">%d小時前</value>
+			</row>
+			<row>
+				<value column="0">friend_days_after</value>
+				<value column="1">%d天前</value>
+			</row>
+			<row>
+				<value column="0">pub_strengthen_text</value>
+				<value column="1">強化</value>
+			</row>
+			<row>
+				<value column="0">strengthen_title1</value>
+				<value column="1">英雄のアップグレード</value>
+			</row>
+			<row>
+				<value column="0">strengthen_title2</value>
+				<value column="1">天武強化</value>
+			</row>
+			<row>
+				<value column="0">strengthen_upgrade_btn</value>
+				<value column="1">アップグレード</value>
+			</row>
+			<row>
+				<value column="0">strengthen_trans_btn</value>
+				<value column="1">転生</value>
+			</row>
+			<row>
+				<value column="0">strengthen_break_btn</value>
+				<value column="1">突破</value>
+			</row>
+			<row>
+				<value column="0">strengthen_forge_btn</value>
+				<value column="1">鍛造</value>
+			</row>
+			<row>
+				<value column="0">strengthen_deblocking_btn</value>
+				<value column="1">ロックを解除する</value>
+			</row>
+			<row>
+				<value column="0">strengthen_weapon_forge_text</value>
+				<value column="1">天武鍛造</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_clear_text</value>
+				<value column="1">洗練</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_need_thing_text</value>
+				<value column="1">材料が必要：</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_des_text</value>
+				<value column="1">転生が満ちた後は突破</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_hero_clear_text</value>
+				<value column="1">英雄の洗練された</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_hero_clear_des_text</value>
+				<value column="1">洗練されてランダムに属性を得ることができます</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_clear_save_text</value>
+				<value column="1">保存</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_hero_advance_text</value>
+				<value column="1">アドバンス</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_hero_advance_num</value>
+				<value column="1">%d階の詳細</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_hero_back_text</value>
+				<value column="1">英雄的背景</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_hero_skill_name</value>
+				<value column="1">技能名</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_hero_weapon_name</value>
+				<value column="1">天武名前</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_activate_text</value>
+				<value column="1">アクティブにする</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_not_activate_text</value>
+				<value column="1">未活性化</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_look_fit_text</value>
+				<value column="1">査看合体</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_background_text</value>
+				<value column="1">背景</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_forge_level</value>
+				<value column="1">鍛造レベル</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_promote_fight</value>
+				<value column="1">戦力を上げる</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_forge_level_deblocking</value>
+				<value column="1">武具鍛造%d級後のロックを解除</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_used_diamond_up</value>
+				<value column="1">消耗ダイヤ向上成功率</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_forge_succeed_rate</value>
+				<value column="1">鍛造成功率内</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_add_forge_succeed_rate</value>
+				<value column="1">成功率増加内</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_weapon_deblocking</value>
+				<value column="1">天武アンロック</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_eblocking_level</value>
+				<value column="1">アンロックレベル</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_eblocking_addatt</value>
+				<value column="1">アンロック後に属性が増加する</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_now_equipment</value>
+				<value column="1">現在の装備：</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_success_rate_min</value>
+				<value column="1">成功率が最低になった</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_success_rate_max</value>
+				<value column="1">成功率が満ちている</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_forge_success</value>
+				<value column="1">鍛造が成功する</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_forge_fail</value>
+				<value column="1">鍛造失敗</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_eblocking_success</value>
+				<value column="1">アンロック成功</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_equipment_text</value>
+				<value column="1">装備</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_gain_text</value>
+				<value column="1">獲得済み</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_not_gain_text</value>
+				<value column="1">獲得</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_effect_text</value>
+				<value column="1">効果：</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_have_equipment</value>
+				<value column="1">装備済み</value>
+			</row>
+			<row>
+				<value column="0">heroinfo_no_material</value>
+				<value column="1">あなたの材料は不足している</value>
+			</row>
+			<row>
+				<value column="0">shop_purchase_success</value>
+				<value column="1">購買成功を購入する</value>
+			</row>
+			<row>
+				<value column="0">shop_monthcard</value>
+				<value column="1">月卡</value>
+			</row>
+			<row>
+				<value column="0">leg_simdetail_explain</value>
+				<value column="1">あなたの第1ラウンドの技能はカバー率100 %を調べます。</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend</value>
+				<value column="1">推薦</value>
+			</row>
+			<row>
+				<value column="0">leg_change</value>
+				<value column="1">変更</value>
+			</row>
+			<row>
+				<value column="0">leg_viewdetails</value>
+				<value column="1">詳しいことを見る</value>
+			</row>
+			<row>
+				<value column="0">leg_fire</value>
+				<value column="1">解雇</value>
+			</row>
+			<row>
+				<value column="0">leg_see</value>
+				<value column="1">査看</value>
+			</row>
+			<row>
+				<value column="0">leg_sort</value>
+				<value column="1">ソート</value>
+			</row>
+			<row>
+				<value column="0">leg_num</value>
+				<value column="1">数</value>
+			</row>
+			<row>
+				<value column="0">leg_level_lv</value>
+				<value column="1">LV LV LV。</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_lineup</value>
+				<value column="1">推薦メンバー</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_explain</value>
+				<value column="1">Gexiujinさま、私はあなたに私の推薦に楽陣？</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_strike</value>
+				<value column="1">クリティカル流陣容</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_reply</value>
+				<value column="1">回復流陣</value>
+			</row>
+			<row>
+				<value column="0">leg_recommend_pure</value>
+				<value column="1">純粋流陣容</value>
+			</row>
+			<row>
+				<value column="0">str570033</value>
+				<value column="1">snermea 1</value>
+			</row>
+			<row>
+				<value column="0">leg_al_activate</value>
+				<value column="1">アクティブにする</value>
+			</row>
+			<row>
+				<value column="0">leg_not_activate</value>
+				<value column="1">未活性化</value>
+			</row>
+			<row>
+				<value column="0">leg_seehere</value>
+				<value column="1">ここを見て</value>
+			</row>
+			<row>
+				<value column="0">str570043</value>
+				<value column="1">戦闘力ソート</value>
+			</row>
+			<row>
+				<value column="0">leg_level</value>
+				<value column="1">等級</value>
+			</row>
+			<row>
+				<value column="0">leg_fighting</value>
+				<value column="1">戦力</value>
+			</row>
+			<row>
+				<value column="0">leg_strengthen</value>
+				<value column="1">転生</value>
+			</row>
+			<row>
+				<value column="0">leg_awaken</value>
+				<value column="1">突破</value>
+			</row>
+			<row>
+				<value column="0">leg_arms</value>
+				<value column="1">天武レベル</value>
+			</row>
+			<row>
+				<value column="0">leg_advanced</value>
+				<value column="1">宝具のアンロック</value>
+			</row>
+			<row>
+				<value column="0">leg_consume</value>
+				<value column="1">消費</value>
+			</row>
+			<row>
+				<value column="0">leg_nodiamonds_recharge</value>
+				<value column="1">ダイヤモンドが足りない、あなたはリチャージができます</value>
+			</row>
+			<row>
+				<value column="0">leg_mercenaries_swap</value>
+				<value column="1">二人の英雄は互いに交換しあう</value>
+			</row>
+			<row>
+				<value column="0">leg_swap_attr</value>
+				<value column="1">交換の属性は：経験値、レベル、覚醒、突破などの属性が含まれます。</value>
+			</row>
+			<row>
+				<value column="0">leg_confirm_dismissal</value>
+				<value column="1">辞退を確認する</value>
+			</row>
+			<row>
+				<value column="0">leg_dismissal_settlement</value>
+				<value column="1">解雇を辞退する</value>
+			</row>
+			<row>
+				<value column="0">leg_choice</value>
+				<value column="1">選択</value>
+			</row>
+			<row>
+				<value column="0">leg_notenough</value>
+				<value column="1">足りないのはない</value>
+			</row>
+			<row>
+				<value column="0">leg_notobtain</value>
+				<value column="1">得る</value>
+			</row>
+			<row>
+				<value column="0">legions_inbattle</value>
+				<value column="1">戦いはもう</value>
+			</row>
+			<row>
+				<value column="0">leg_getrecovery</value>
+				<value column="1">回収</value>
+			</row>
+			<row>
+				<value column="0">leg_honor_fragment</value>
+				<value column="1">名誉のかけら</value>
+			</row>
+			<row>
+				<value column="0">leg_origin</value>
+				<value column="1">本源</value>
+			</row>
+			<row>
+				<value column="0">leg_selnum</value>
+				<value column="1">選択数</value>
+			</row>
+			<row>
+				<value column="0">leg_experience</value>
+				<value column="1">経験</value>
+			</row>
+			<row>
+				<value column="0">leg_obtain_source</value>
+				<value column="1">相応の原材料を得る</value>
+			</row>
+			<row>
+				<value column="0">leg_character_bg</value>
+				<value column="1">人物背景</value>
+			</row>
+			<row>
+				<value column="0">leg_character_explain</value>
+				<value column="1">検査対象はアップグレード、強化、覚醒、非閃金売買契約</value>
+			</row>
+			<row>
+				<value column="0">leg_dismissal_explain</value>
+				<value column="1">傭兵の溶液にペンギンのすべての魂石、金華の消費、もし雇用LV30 70％を超え、口</value>
+			</row>
+			<row>
+				<value column="0">leg_herosoul</value>
+				<value column="1">英雄の魂</value>
+			</row>
+			<row>
+				<value column="0">leg_summon_mercenary</value>
+				<value column="1">魂石の消耗と破片の栄光は、雇用を呼び出すことができます</value>
+			</row>
+			<row>
+				<value column="0">leg_soulstone</value>
+				<value column="1">魂石</value>
+			</row>
+			<row>
+				<value column="0">leg_call</value>
+				<value column="1">コール</value>
+			</row>
+			<row>
+				<value column="0">leg_call_confirmation</value>
+				<value column="1">召喚を確認する</value>
+			</row>
+			<row>
+				<value column="0">leg_lineupbattle</value>
+				<value column="1">戦闘陣容</value>
+			</row>
+			<row>
+				<value column="0">leg_herolist</value>
+				<value column="1">ヒーローリスト</value>
+			</row>
+			<row>
+				<value column="0">leg_capacityconvers</value>
+				<value column="1">能力変換</value>
+			</row>
+			<row>
+				<value column="0">leg_fateweapon</value>
+				<value column="1">宿命の武器</value>
+			</row>
+			<row>
+				<value column="0">leg_batchdelete</value>
+				<value column="1">一括解雇する</value>
+			</row>
+			<row>
+				<value column="0">leg_pokedex</value>
+				<value column="1">図鑑</value>
+			</row>
+			<row>
+				<value column="0">leg_whole</value>
+				<value column="1">全部</value>
+			</row>
+			<row>
+				<value column="0">leg_qualitysort</value>
+				<value column="1">品質分類</value>
+			</row>
+			<row>
+				<value column="0">leg_levelsort</value>
+				<value column="1">レベルソート</value>
+			</row>
+			<row>
+				<value column="0">leg_fightsort</value>
+				<value column="1">戦力分類</value>
+			</row>
+			<row>
+				<value column="0">leg_reincarnatesort</value>
+				<value column="1">転生ソート</value>
+			</row>
+			<row>
+				<value column="0">leg_breaksort</value>
+				<value column="1">を突破する</value>
+			</row>
+			<row>
+				<value column="0">leg_advancedsort</value>
+				<value column="1">順序ソート</value>
+			</row>
+			<row>
+				<value column="0">leg_sortcriteria</value>
+				<value column="1">ソート標準</value>
+			</row>
+			<row>
+				<value column="0">leg_screening_conditions</value>
+				<value column="1">スクリーニング条件</value>
+			</row>
+			<row>
+				<value column="0">leg_sortsetting</value>
+				<value column="1">ソート設定</value>
+			</row>
+			<row>
+				<value column="0">leg_quality</value>
+				<value column="1">品質</value>
+			</row>
+			<row>
+				<value column="0">leg_followingquality</value>
+				<value column="1">と以下の品質</value>
+			</row>
+			<row>
+				<value column="0">leg_whitequality</value>
+				<value column="1">白質</value>
+			</row>
+			<row>
+				<value column="0">leg_reset</value>
+				<value column="1">リセット</value>
+			</row>
+			<row>
+				<value column="0">leg_addtxt</value>
+				<value column="1">足を付ける</value>
+			</row>
+			<row>
+				<value column="0">leg_replacetxt</value>
+				<value column="1">置き換え</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_title</value>
+				<value column="1">陣容</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_crit</value>
+				<value column="1">クリティカル流</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_reply</value>
+				<value column="1">回復フロー</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_pure</value>
+				<value column="1">純粋流</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_blind</value>
+				<value column="1">むだにする</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_Relatedskil</value>
+				<value column="1">技能について</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_criteffect</value>
+				<value column="1">毎いち時先攻アップ0.17%のクリティカルダメージ（無視さける）</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_replyeffect</value>
+				<value column="1">いち時ごとに0 . 5％の回復値アップよける</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_pureeffect</value>
+				<value column="1">敵の防御無視よけると純粋技能</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_unlimited</value>
+				<value column="1">技能については制限なし</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firstattr</value>
+				<value column="1">先攻属性</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firstattr1</value>
+				<value column="1">先攻値の高い方が先に手を出したら、先攻値と同じ攻撃などから手を出しては</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firstattr2</value>
+				<value column="1">同時にそれぞれ時先攻値増加0 . 5％のクリティカルダメージ</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating</value>
+				<value column="1">よけるレベル</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating1</value>
+				<value column="1">よける値が高いほど、さけるのチャンスが大きい</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating2</value>
+				<value column="1">同時にそれぞれさける値増加0 . 5％の治療の効果</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_dodgerating3</value>
+				<value column="1">無視されるさけるのクリティカル流純粋流克制</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_defenselevel</value>
+				<value column="1">防御レベル</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_defenselevel1</value>
+				<value column="1">防御値が高く、受けダメージが少ない</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_defenselevel2</value>
+				<value column="1">ガードを無視された純粋さが抑えられて</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_kinglevel</value>
+				<value column="1">王者のレベル</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_kinglevel1</value>
+				<value column="1">相手より1時王者には1 %の攻撃で最終ダメージ</value>
+			</row>
+			<row>
+				<value column="0">leg_detail_firlegskil</value>
+				<value column="1">第1ラウンドの技能</value>
+			</row>
+		</rows>
+	</table>
+</database>
