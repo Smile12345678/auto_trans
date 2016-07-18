@@ -1,4 +1,4 @@
-#--------------------------------------------123-
+#---------------------------------------------
 from PyQt5.QtCore import QThread,pyqtSignal
 import util.utils as utils
 import data.xml_writer as XW
